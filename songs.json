@@ -18,7 +18,7 @@
   {
     "title": "Trippolette",
     "artist": "Andrew Buch",
-    "album": "Guitar Hero",
+    "album": "Trippolette (Single)",
     "year": 2005,
     "genre": "Rock",
     "cover": "covers/harmonixguitarhero.png",
@@ -224,6 +224,38 @@
   }
   },
   {
+    "title": "Fly on the Wall",
+    "artist": "Din",
+    "album": "Longhair Music",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/dinlonghairmusic.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Decontrol",
+    "artist": "Drist",
+    "album": "Orchids and Ammunition",
+    "year": 2006,
+    "genre": "Metal",
+    "cover": "covers/dristorchidsandammunition.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
     "title": "Take Me Out",
     "artist": "Franz Ferdinand",
     "album": "Franz Ferdinand",
@@ -239,6 +271,54 @@
       "vocals": -1
   }
   },
+    {
+    "title": "Get Ready 2 Rokk",
+    "artist": "Freezepop",
+    "album": "Freezepop Forever",
+    "year": 2000,
+    "genre": "popdanceelectronic",
+    "cover": "covers/freezepopfreezepopforever.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Cheat on the Church",
+    "artist": "Graveyard BBQ",
+    "album": "Greatest Hits Volume I",
+    "year": 2005,
+    "genre": "Metal",
+    "cover": "covers/graveyardbbqgreatesthitsvolumei.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Graveyard Shift",
+    "artist": "Gurney",
+    "album": "Graveyard Shift (Single)",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/harmonixguitarhero.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
   {
     "title": "Unsung",
     "artist": "Helmet",
@@ -246,6 +326,22 @@
     "year": 1992,
     "genre": "Metal",
     "cover": "covers/helmetmeantime.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Hey",
+    "artist": "Honest Bob and the Factory-to-Dealer Incentives",
+    "album": "Second and Eighteen",
+    "year": 2005,
+    "genre": "Indie Rock",
+    "cover": "covers/honestbobandthefactorytodealerincentivessecond&eighteen.png",
     "category": "gh",
     "rating": "SR",
     "difficulty": {
