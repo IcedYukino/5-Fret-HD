@@ -126,6 +126,25 @@ justify-content:center;
 padding:4px 4px;
 }
 
+.sort-buttons{
+margin-top:10px;
+display:flex;
+gap:10px;
+}
+
+.sort-buttons button{
+background:#222;
+color:white;
+border:none;
+padding:6px 12px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.sort-buttons button:hover{
+background:#444;
+}
+
 /* Song count */
 
 #song-count{
