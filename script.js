@@ -91,8 +91,6 @@ if(level === undefined || level === null || level === -1){
 return `<div class="no-part">NO PART</div>`;
 }
 
-}
-
 let bars = "";
 
 for (let i = 1; i <= 5; i++) {
@@ -110,6 +108,7 @@ bars += `<div class="diff"></div>`;
 }
 
 return `<div class="diff-row">${bars}</div>`;
+
 }
 
 function searchSongs(){
