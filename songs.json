@@ -14,5 +14,21 @@
       "drums": -1,
       "vocals": -1
     }
+  },
+  {
+    "title": "Trippolette",
+    "artist": "Andrew Buch",
+    "album": "Guitar Hero",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/harmonixguitarhero.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
   }
 ]
