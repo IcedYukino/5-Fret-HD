@@ -1,5 +1,5 @@
 let songs = [];
-let currentTab = "gh";
+let currentTab = "all";
 
 loadSongs(currentTab);
 
