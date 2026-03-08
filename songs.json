@@ -112,6 +112,102 @@
     }
   },
   {
+    "title": "Heart Full of Black",
+    "artist": "Burning Brides",
+    "album": "Leave No Ashes",
+    "year": 2004,
+    "genre": "Rock",
+    "cover": "covers/burningbridesleavenoashes.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
+    "title": "Crossroads",
+    "artist": "Cream",
+    "album": "Wheels of Fire",
+    "year": 1968,
+    "genre": "Classic Rock",
+    "cover": "covers/creamwheelsoffire.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
+    "title": "Ziggy Stardust",
+    "artist": "David Bowie",
+    "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+    "year": 1972,
+    "genre": "Glam",
+    "cover": "covers/davidbowietheriseandfallofziggystardustandthespidersfrommars.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
+    "title": "Smoke on the Water",
+    "artist": "Deep Purple",
+    "album": "Machine Head",
+    "year": 1972,
+    "genre": "Prog",
+    "cover": "covers/deeppurplemachinehead.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+    {
+    "title": "Take Me Out",
+    "artist": "Franz Ferdinand",
+    "album": "Franz Ferdinand",
+    "year": 2004,
+    "genre": "Alternative",
+    "cover": "franzferdinandfranzferdinand.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+    {
+    "title": "Unsung",
+    "artist": "Helmet",
+    "album": "Meantime",
+    "year": 1992,
+    "genre": "Metal",
+    "cover": "covers/helmetmeantime.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
     "title": "Even Rats",
     "artist": "The Slip",
     "album": "Eisenhower",
