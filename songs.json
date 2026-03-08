@@ -30,5 +30,37 @@
       "drums": -1,
       "vocals": -1
     }
+  },
+    {
+    "title": "Even Rats",
+    "artist": "The Slip",
+    "album": "Eisenhower",
+    "year": 2006,
+    "genre": "Indie Rock",
+    "cover": "covers/theslipeisenhower.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
+    "title": "Eureka, I've Found Love",
+    "artist": "The Upper Crust",
+    "album": "Once More Into the Breeches",
+    "year": 2001,
+    "genre": "Rock",
+    "cover": "covers/theuppercrustoncemoreintothebreeches.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
   }
 ]
