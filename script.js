@@ -1,7 +1,9 @@
 let songs = [];
 let currentTab = "all";
 
+window.addEventListener("DOMContentLoaded", () => {
 loadSongs(currentTab);
+});
 
 async function loadSongs(tab){
 
@@ -21,10 +23,8 @@ files = ["guitarherowarriorsofrockdlc"];
 }
 else if(tab === "all"){
 
-const index = await fetch("songlists/index.json")
-.then(response => response.json());
-
-files = index;
+const index = await fetch("songlists/index.json");
+files = await index.json();
 
 }
 
