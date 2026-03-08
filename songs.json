@@ -272,12 +272,60 @@
   }
   },
   {
+    "title": "Take It Off",
+    "artist": "The Donnas",
+    "album": "Spend the Night",
+    "year": 2002,
+    "genre": "Rock",
+    "cover": "covers/thedonnasspendthenight.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
     "title": "Decontrol",
     "artist": "Drist",
     "album": "Orchids and Ammunition",
     "year": 2006,
     "genre": "Metal",
     "cover": "covers/dristorchidsandammunition.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Frankenstein",
+    "artist": "The Edgar Winter Group",
+    "album": "They Only Come Out at Night",
+    "year": 1972,
+    "genre": "Classic Rock",
+    "cover": "covers/theedgarwintergrouptheyonlycomeoutatnight.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Hey You",
+    "artist": "The Exies",
+    "album": "Head for the Door",
+    "year": 2004,
+    "genre": "Rock",
+    "cover": "covers/theexiesheadforthedoor.png",
     "category": "gh",
     "rating": "SR",
     "difficulty": {
@@ -392,6 +440,22 @@
     "cover": "covers/incubusmakeyourself.png",
     "category": "gh",
     "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Spanish Castle Magic",
+    "artist": "The Jimi Hendrix Experience",
+    "album": "Axis: Bold as Love",
+    "year": 1967,
+    "genre": "Classic Rock",
+    "cover": "covers/thejimihendrixexperienceaxisboldaslove.png",
+    "category": "gh",
+    "rating": "FF",
     "difficulty": {
       "guitar": 0,
       "bass": -1,
@@ -608,6 +672,22 @@
   }
   },
   {
+    "title": "All of This",
+    "artist": "Shaimus",
+    "album": "Paper Sun",
+    "year": 2006,
+    "genre": "Indie Rock",
+    "cover": "covers/shaimuspapersun.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
     "title": "Even Rats",
     "artist": "The Slip",
     "album": "Eisenhower",
@@ -640,12 +720,60 @@
   }
   },
   {
+    "title": "Fat Lip",
+    "artist": "Sum 41",
+    "album": "All Killer, No Filler",
+    "year": 2001,
+    "genre": "Punk",
+    "cover": "covers/sum41allkillernofiller.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
     "title": "Eureka, I've Found Love",
     "artist": "The Upper Crust",
     "album": "Once More Into the Breeches",
     "year": 2001,
     "genre": "Rock",
     "cover": "covers/theuppercrustoncemoreintothebreeches.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Thunder Kiss '65",
+    "artist": "White Zombie",
+    "album": "La Sexorcisto: Devil Music, Vol. 1",
+    "year": 1992,
+    "genre": "Metal",
+    "cover": "covers/whitezombielasexorcistodevilmusicvol1.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+    {
+    "title": "Sharp Dressed Man",
+    "artist": "ZZ Top",
+    "album": "Eliminator",
+    "year": 1983,
+    "genre": "Rock",
+    "cover": "covers/zztopeliminator.png",
     "category": "gh",
     "rating": "SR",
     "difficulty": {
