@@ -17,7 +17,7 @@ else if(tab === "ghwor"){
 file = "guitarherowarriorsofrock";
 }
 else if(tab === "ghwordlc"){
-file = "ghwordlc";
+file = "guitarherowarriorsofrockdlc";
 }
 
 fetch(`songlists/${file}.json`)
