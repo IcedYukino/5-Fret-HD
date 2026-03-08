@@ -352,6 +352,54 @@
   }
   },
   {
+    "title": "Stellar",
+    "artist": "Incubus",
+    "album": "Make Yourself",
+    "year": 1999,
+    "genre": "Alternative",
+    "cover": "covers/incubusmakeyourself.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "I Love Rock N' Roll",
+    "artist": "Joan Jett & The Blackhearts",
+    "album": "I Love Rock N' Roll",
+    "year": 1981,
+    "genre": "Punk",
+    "cover": "covers/joanjett&theblackheartsiloverocknroll.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "You've Got Another Thing Comin'",
+    "artist": "Judas Priest",
+    "album": "Screaming for Vengeance",
+    "year": 1982,
+    "genre": "Metal",
+    "cover": "covers/judaspriestscreamingforvengeance.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
     "title": "Even Rats",
     "artist": "The Slip",
     "album": "Eisenhower",
