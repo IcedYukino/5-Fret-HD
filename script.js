@@ -23,20 +23,41 @@ files = ["guitarherowarriorsofrockdlc"];
 }
 else if(tab === "all"){
 
+try{
 const index = await fetch("songlists/index.json");
 files = await index.json();
+}catch(err){
+console.error("Failed to load index.json", err);
+return;
+}
 
 }
 
-const responses = await Promise.all(
-files.map(file => fetch(`songlists/${file}.json`))
-);
+let loadedSongs = [];
 
-const data = await Promise.all(
-responses.map(res => res.json())
-);
+for(const file of files){
 
-songs = data.flat();
+try{
+
+const res = await fetch(`songlists/${file}.json`);
+
+if(!res.ok){
+console.warn(`Skipping missing file: ${file}.json`);
+continue;
+}
+
+const data = await res.json();
+loadedSongs.push(...data);
+
+}catch(err){
+
+console.warn(`Error loading ${file}.json`, err);
+
+}
+
+}
+
+songs = loadedSongs;
 
 displaySongs(songs);
 
