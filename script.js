@@ -87,9 +87,9 @@ dropdown.classList.toggle("open");
 
 function createDifficulty(level) {
 
-if(level === undefined || level === null){
-
+if(level === undefined || level === null || level === -1){
 return `<div class="no-part">NO PART</div>`;
+}
 
 }
 
