@@ -3,28 +3,40 @@ let currentTab = "gh";
 
 loadSongs(currentTab);
 
-function loadSongs(tab){
+async function loadSongs(tab){
 
-let file;
+let files = [];
 
 if(tab === "gh"){
-file = "guitarhero";
+files = ["guitarhero"];
 }
 else if(tab === "gh2"){
-file = "guitarhero2";
+files = ["guitarhero2"];
 }
 else if(tab === "ghwor"){
-file = "guitarherowarriorsofrock";
+files = ["guitarherowarriorsofrock"];
 }
 else if(tab === "ghwordlc"){
-file = "guitarherowarriorsofrockdlc";
+files = ["guitarherowarriorsofrockdlc"];
+}
+else if(tab === "all"){
+files = [
+"guitarhero",
+"guitarhero2",
+"guitarherowarriorsofrock",
+"guitarherowarriorsofrockdlc"
+];
 }
 
-fetch(`songlists/${file}.json`)
-.then(response => response.json())
-.then(data => {
+const responses = await Promise.all(
+files.map(file => fetch(`songlists/${file}.json`))
+);
 
-songs = data;
+const jsonData = await Promise.all(
+responses.map(res => res.json())
+);
+
+songs = jsonData.flat();
 
 displaySongs(songs);
 
