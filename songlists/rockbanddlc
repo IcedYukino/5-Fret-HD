@@ -1,0 +1,18 @@
+[
+  {
+    "title": "...And Justice for All",
+    "artist": "Metallica",
+    "album": "...And Justice for All",
+    "year": 1988,
+    "genre": "Metal",
+    "cover": "covers/andjusticeforall.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": ,
+      "bass": ,
+      "drums": ,
+      "vocals": 
+  }
+  }
+]
