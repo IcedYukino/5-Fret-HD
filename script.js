@@ -1,5 +1,5 @@
 let songs = [];
-let currentTab = "main";
+let currentTab = "gh";
 
 fetch("songs.json")
 .then(response => response.json())
