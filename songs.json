@@ -31,7 +31,39 @@
       "vocals": -1
     }
   },
-    {
+  {
+    "title": "Cochise",
+    "artist": "Audioslave",
+    "album": "Audioslave",
+    "year": 2002,
+    "genre": "Rock",
+    "cover": "covers/audioslaveaudioslave.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
+    "title": "Infected",
+    "artist": "Bad Religion",
+    "album": "Stranger Than Fiction",
+    "year": 1994,
+    "genre": "Punk",
+    "cover": "covers/badreligionstrangerthanfiction.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
     "title": "Even Rats",
     "artist": "The Slip",
     "album": "Eisenhower",
