@@ -13,7 +13,7 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
   {
     "title": "Trippolette",
@@ -29,7 +29,7 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
   {
     "title": "Cochise",
@@ -45,7 +45,7 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
   {
     "title": "Infected",
@@ -61,7 +61,23 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
+  },
+  {
+    "title": "Fire It Up",
+    "artist": "Black Label Society",
+    "album": "Mafia",
+    "year": 2005,
+    "genre": "Metal",
+    "cover": "covers/blacklabelsocietymafia.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
   },
   {
     "title": "Iron Man",
@@ -77,7 +93,7 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
   {
     "title": "Godzilla",
@@ -93,7 +109,7 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
   {
     "title": "More Than a Feeling",
@@ -109,7 +125,23 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
+  },
+  {
+    "title": "The Breaking Wheel",
+    "artist": "Breaking Wheel",
+    "album": "Breaking Wheel",
+    "year": 2008,
+    "genre": "Metal",
+    "cover": "covers/breakingwheelbreakingwheel.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
   },
   {
     "title": "Heart Full of Black",
@@ -125,7 +157,23 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
+  },
+  {
+    "title": "Sail Your Ship By",
+    "artist": "Count Zero",
+    "album": "Little Minds",
+    "year": 2004,
+    "genre": "Rock",
+    "cover": "covers/countzerolittleminds.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
   },
   {
     "title": "Crossroads",
@@ -141,7 +189,7 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
   {
     "title": "Ziggy Stardust",
@@ -157,7 +205,7 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
   {
     "title": "Smoke on the Water",
@@ -173,9 +221,9 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
-    {
+  {
     "title": "Take Me Out",
     "artist": "Franz Ferdinand",
     "album": "Franz Ferdinand",
@@ -189,9 +237,9 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
-    {
+  {
     "title": "Unsung",
     "artist": "Helmet",
     "album": "Meantime",
@@ -205,7 +253,7 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
   {
     "title": "Even Rats",
@@ -221,7 +269,7 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   },
   {
     "title": "Eureka, I've Found Love",
@@ -237,6 +285,6 @@
       "bass": -1,
       "drums": -1,
       "vocals": -1
-    }
+  }
   }
 ]
