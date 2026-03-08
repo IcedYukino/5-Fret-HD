@@ -5,10 +5,19 @@ loadSongs(currentTab);
 
 function loadSongs(tab){
 
-let file = tab;
+let file;
 
-if(tab === "ghwor"){
+if(tab === "gh"){
+file = "guitarhero";
+}
+else if(tab === "gh2"){
+file = "gh2";
+}
+else if(tab === "ghwor"){
 file = "guitarherowarriorsofrock";
+}
+else if(tab === "ghwordlc"){
+file = "ghwordlc";
 }
 
 fetch(`songlists/${file}.json`)
