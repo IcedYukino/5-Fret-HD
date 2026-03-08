@@ -113,6 +113,19 @@ transition:.2s;
 background:#333;
 }
 
+.tabs .tab img{
+height:28px;
+width:auto;
+display:block;
+}
+
+.tabs .tab{
+display:flex;
+align-items:center;
+justify-content:center;
+padding:8px 14px;
+}
+
 /* Song count */
 
 #song-count{
