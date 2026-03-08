@@ -21,10 +21,14 @@ function displaySongs(songList){
 const grid = document.getElementById("song-grid");
 grid.innerHTML = "";
 
-document.getElementById("song-count").innerText =
-songList.length + " songs";
+const filtered = songList.filter(song =>
+song.category === currentTab
+);
 
-songList.forEach(song => {
+document.getElementById("song-count").innerText =
+filtered.length + " songs";
+
+filtered.forEach(song => {
 
 const card = document.createElement("div");
 card.className = "song";
@@ -118,8 +122,8 @@ function searchSongs(){
 const input = document.getElementById("search").value.toLowerCase();
 
 const filtered = songs.filter(song =>
-song.title.toLowerCase().includes(input) ||
-song.artist.toLowerCase().includes(input)
+(song.title.toLowerCase().includes(input) ||
+song.artist.toLowerCase().includes(input))
 );
 
 displaySongs(filtered);
@@ -142,9 +146,11 @@ loadSongs(tab);
 
 document.getElementById("randomSong").addEventListener("click", () => {
 
-const random = songs[Math.floor(Math.random() * songs.length)];
+const filtered = songList; === currentTab);
 
-displaySongs(songs);
+const random = visibleSongs[Math.floor(Math.random() * visibleSongs.length)];
+
+displaySongs(visibleSongs);
 
 setTimeout(() => {
 
