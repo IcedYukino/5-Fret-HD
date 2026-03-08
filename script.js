@@ -1,6 +1,6 @@
 let songs = [];
-let currentTab = "gh";
-let currentFile = "guitarhero";
+let currentTab = "gh";       // current category
+let currentFile = "guitarhero"; // current JSON file
 
 loadSongs(currentFile);
 
@@ -11,9 +11,23 @@ fetch(`songlists/${file}.json`)
 .then(data => {
 
 songs = data;
-displaySongs(songs);
+
+applyFilter();
 
 });
+
+}
+
+function applyFilter(){
+
+const filtered = songs.filter(song =>
+song.category === currentTab
+);
+
+displaySongs(filtered);
+
+document.getElementById("song-count").innerText =
+filtered.length + " songs";
 
 }
 
@@ -22,14 +36,7 @@ function displaySongs(songList){
 const grid = document.getElementById("song-grid");
 grid.innerHTML = "";
 
-const filtered = songList.filter(song =>
-song.category === currentTab
-);
-
-document.getElementById("song-count").innerText =
-filtered.length + " songs";
-
-filtered.forEach(song => {
+songList.forEach(song => {
 
 const card = document.createElement("div");
 card.className = "song";
@@ -123,12 +130,15 @@ function searchSongs(){
 const input = document.getElementById("search").value.toLowerCase();
 
 const filtered = songs.filter(song =>
+song.category === currentTab &&
 (song.title.toLowerCase().includes(input) ||
-song.artist.toLowerCase().includes(input)) &&
-song.category === currentTab
+song.artist.toLowerCase().includes(input))
 );
 
 displaySongs(filtered);
+
+document.getElementById("song-count").innerText =
+filtered.length + " songs";
 
 }
 
@@ -143,13 +153,17 @@ btn.classList.remove("active");
 
 button.classList.add("active");
 
-loadSongs(file);
+loadSongs(currentFile);
 
 }
 
 document.getElementById("randomSong").addEventListener("click", () => {
 
-const visibleSongs = songs.filter(song => song.category === currentTab);
+const visibleSongs = songs.filter(song =>
+song.category === currentTab
+);
+
+if(visibleSongs.length === 0) return;
 
 const random = visibleSongs[Math.floor(Math.random() * visibleSongs.length)];
 
