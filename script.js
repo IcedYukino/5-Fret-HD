@@ -1,18 +1,20 @@
 let songs = [];
-let currentTab = "gh";
+let currentTab = "guitarhero";
 
-fetch("songlists/guitarhero.json")
+loadSongs(currentTab);
+
+function loadSongs(list){
+
+fetch(`songlists/${list}.json`)
 .then(response => response.json())
 .then(data => {
-
-fetch("songlists/guitarherowarriorsofrock.json")
-.then(response => response.json())
-.then(data => {  
 
 songs = data;
 displaySongs(songs);
 
 });
+
+}
 
 function displaySongs(songList){
 
@@ -138,13 +140,13 @@ btn.classList.remove("active");
 
 button.classList.add("active");
 
-displaySongs(songs);
-  
+loadSongs(tab);
+
 }
 
 document.getElementById("randomSong").addEventListener("click", () => {
 
-const visibleSongs = songs.filter(song => song.category === currentTab);
+const filtered = songList; === currentTab);
 
 const random = visibleSongs[Math.floor(Math.random() * visibleSongs.length)];
 
