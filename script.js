@@ -11,7 +11,7 @@ if(tab === "gh"){
 file = "guitarhero";
 }
 else if(tab === "gh2"){
-file = "gh2";
+file = "guitarhero2";
 }
 else if(tab === "ghwor"){
 file = "guitarherowarriorsofrock";
