@@ -285,6 +285,14 @@ background:#ff2d2d !important;
 box-shadow:0 0 6px #ff2d2d;
 }
 
+.no-part{
+font-size:11px;
+color:#777;
+font-weight:bold;
+letter-spacing:1px;
+margin-top:3px;
+}
+
 /* Footer */
 
 footer{
