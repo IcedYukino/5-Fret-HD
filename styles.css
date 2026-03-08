@@ -242,9 +242,8 @@ border-top:1px solid #333;
 padding-top:0;
 }
 
-.difficulty-dropdown.open{
-max-height:140px;
-padding-top:8px;
+.difficulty-dropdown.open {
+max-height: 1000px;
 }
 
 /* Instruments */
