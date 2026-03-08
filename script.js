@@ -22,6 +22,9 @@ async function loadSongs(tab){
     else if(tab === "ghwordlc"){
         files = ["guitarherowarriorsofrockdlc"];
     }
+    else if(tab === "rb1dlc"){
+        files = ["rockbanddlc"];
+    }    
     else if(tab === "all"){
 
         try{
