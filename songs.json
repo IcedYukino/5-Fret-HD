@@ -64,6 +64,54 @@
     }
   },
   {
+    "title": "Iron Man",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "genre": "Metal",
+    "cover": "covers/blacksabbathparanoid.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
+    "title": "Godzilla",
+    "artist": "Blue Öyster Cult",
+    "album": "Spectres",
+    "year": 1977,
+    "genre": "Classic Rock",
+    "cover": "covers/blueoystercultspectres.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
+    "title": "More Than a Feeling",
+    "artist": "Boston",
+    "album": "Boston",
+    "year": 1976,
+    "genre": "Classic Rock",
+    "cover": "covers/bostonboston.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+    }
+  },
+  {
     "title": "Even Rats",
     "artist": "The Slip",
     "album": "Eisenhower",
