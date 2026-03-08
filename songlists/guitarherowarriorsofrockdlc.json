@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Savor the Kill",
+    "artist": "Darkest Hour",
+    "album": "The Human Romance",
+    "year": 2011,
+    "genre": "Metal",
+    "cover": "covers/darkesthourthehumanromance.png",
+    "category": "ghwordlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 3,
+      "bass": 2,
+      "drums": 5,
+      "vocals": 2
+  }
+  }
+]
