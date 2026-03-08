@@ -9,8 +9,8 @@
     "category": "gh",
     "difficulty": {
       "guitar": 0,
-      "bass": na,
-      "drums": na,
-      "vocals": na
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
     }
   },
