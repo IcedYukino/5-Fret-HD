@@ -199,20 +199,24 @@ let sortDirection = 1;
 
 function sortSongs(type){
 
-    sortDirection *= -1;
+songs.sort((a,b)=>{
 
-    songs.sort((a,b)=>{
+const A = (a[type] || "").toLowerCase();
+const B = (b[type] || "").toLowerCase();
 
-        const A = (a[type] || "").toLowerCase();
-        const B = (b[type] || "").toLowerCase();
+if(A < B) return -1 * sortDirection;
+if(A > B) return 1 * sortDirection;
 
-        if(A < B) return -1 * sortDirection;
-        if(A > B) return 1 * sortDirection;
+return 0;
 
-        return 0;
+});
 
-    });
+displaySongs(songs);
 
+/* toggle AFTER sorting */
+sortDirection *= -1;
+
+}
     displaySongs(songs);
 
 }
