@@ -1,0 +1,294 @@
+/* Base layout */
+
+body{
+font-family: Arial, sans-serif;
+background:#111;
+color:white;
+margin:0;
+text-align:center;
+}
+
+/* Header layout */
+
+.header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:20px 40px;
+}
+
+/* LEFT */
+
+.header-left{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.title{
+margin:0;
+font-size:22px;
+}
+
+.subtitle{
+margin:0;
+font-size:13px;
+color:#bbb;
+}
+
+/* CENTER */
+
+.header-center{
+display:flex;
+align-items:center;
+gap:12px;
+justify-self:center;
+}
+
+/* RIGHT */
+
+.header-right{
+font-size:14px;
+color:#ddd;
+}
+
+/* Logo */
+
+.logo{
+height:60px;
+object-fit:contain;
+filter:drop-shadow(0 0 10px rgba(255,255,255,0.25));
+}
+
+/* Search */
+
+#search{
+padding:12px 16px;
+width:340px;
+border:none;
+border-radius:6px;
+background:#1c1c1c;
+color:white;
+font-size:14px;
+}
+
+/* Tabs */
+
+.tabs{
+display:flex;
+gap:10px;
+}
+
+.tab{
+background:#222;
+border:none;
+color:white;
+padding:10px 18px;
+cursor:pointer;
+border-radius:6px;
+font-weight:bold;
+transition:.2s;
+}
+
+.tab:hover{
+background:#333;
+}
+
+.tab.active{
+background:#0aa3ff;
+}
+
+#randomSong{
+background:#222;
+border:none;
+color:white;
+padding:10px 18px;
+cursor:pointer;
+border-radius:6px;
+font-weight:bold;
+transition:.2s;
+}
+
+#randomSong:hover{
+background:#333;
+}
+
+/* Song count */
+
+#song-count{
+margin-left:auto;
+color:#ddd;
+}
+
+/* Song grid */
+
+.song-grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,200px);
+justify-content:center;
+gap:25px;
+padding:40px;
+}
+
+/* Song card */
+
+.song{
+background:#1a1a1a;
+padding:15px;
+border-radius:10px;
+transition:.25s;
+cursor:pointer;
+display:flex;
+flex-direction:column;
+align-items:center;
+position:relative;
+}
+
+.song:hover{
+transform:scale(1.05);
+box-shadow:0 0 15px #0aa3ff;
+}
+
+.song img{
+width:100%;
+border-radius:6px;
+}
+
+.song h3{
+margin:10px 0 5px;
+font-size:16px;
+}
+
+.song p{
+color:#aaa;
+font-size:14px;
+margin:2px 0;
+}
+
+/* Genre + Rating row */
+
+.genre-row{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+margin-top:6px;
+}
+
+/* Song rating */
+
+.song-rating{
+font-weight:bold;
+font-size:13px;
+}
+
+.song-rating.NR{
+color:#999;
+}
+
+.song-rating.FF{
+color:#22c55e;
+}
+
+.song-rating.SR{
+color:#facc15;
+}
+
+/* Genre tags */
+
+.genre-tag{
+display:inline-block;
+padding:4px 10px;
+border-radius:12px;
+font-size:11px;
+font-weight:bold;
+}
+
+/* Genre colors */
+
+.punk{background:#2b8ffb;color:white;box-shadow:0 0 8px #2b8ffb;}
+.southernrock{background:#ff8c00;color:white;box-shadow:0 0 8px #ff8c00;}
+.metal{background:#fb2b2b;color:white;box-shadow:0 0 8px #fb2b2b;}
+.popdanceelectronic{background:#00cfff;color:white;box-shadow:0 0 8px #00cfff;}
+.newwave{background:#a855f7;color:white;box-shadow:0 0 8px #a855f7;}
+.other{background:#666;color:white;box-shadow:0 0 6px #999;}
+.alternative{background:#3b82f6;color:white;box-shadow:0 0 8px #3b82f6;}
+.blues{background:#2563eb;color:white;box-shadow:0 0 8px #2563eb;}
+.classicrock{background:#f97316;color:white;box-shadow:0 0 8px #f97316;}
+.classical{background:#c084fc;color:white;box-shadow:0 0 8px #c084fc;}
+.country{background:#eab308;color:black;box-shadow:0 0 8px #eab308;}
+.emo{background:#ec4899;color:white;box-shadow:0 0 8px #ec4899;}
+.glam{background:#f472b6;color:white;box-shadow:0 0 8px #f472b6;}
+.grunge{background:#78716c;color:white;box-shadow:0 0 8px #78716c;}
+.hiphoprap{background:#22c55e;color:white;box-shadow:0 0 8px #22c55e;}
+.indierock{background:#6366f1;color:white;box-shadow:0 0 8px #6366f1;}
+.jrock{background:#ef4444;color:white;box-shadow:0 0 8px #ef4444;}
+.novelty{background:#facc15;color:black;box-shadow:0 0 8px #facc15;}
+.numetal{background:#6b7280;color:white;box-shadow:0 0 8px #6b7280;}
+.poprock{background:#38bdf8;color:white;box-shadow:0 0 8px #38bdf8;}
+.prog{background:#8b5cf6;color:white;box-shadow:0 0 8px #8b5cf6;}
+.reggaeska{background:#22c55e;color:white;box-shadow:0 0 8px #22c55e;}
+.rock{background:#ef4444;color:white;box-shadow:0 0 8px #ef4444;}
+.rbsoulfunk{background:#ec4899;color:white;box-shadow:0 0 8px #ec4899;}
+
+/* Difficulty dropdown */
+
+.difficulty-dropdown{
+max-height:0;
+overflow:hidden;
+transition:max-height .25s ease;
+margin-top:10px;
+border-top:1px solid #333;
+padding-top:0;
+}
+
+.difficulty-dropdown.open{
+max-height:140px;
+padding-top:8px;
+}
+
+/* Instruments */
+
+.instrument{
+margin-bottom:10px;
+font-size:12px;
+text-align:center;
+}
+
+.instrument span{
+display:block;
+margin-bottom:3px;
+color:#ccc;
+}
+
+/* Difficulty bars */
+
+.diff-row{
+display:flex;
+gap:4px;
+justify-content:center;
+}
+
+.diff{
+width:18px;
+height:10px;
+background:#333;
+border-radius:2px;
+}
+
+.diff.filled{
+background:#ddd;
+}
+
+.diff.red{
+background:#ff2d2d !important;
+box-shadow:0 0 6px #ff2d2d;
+}
+
+/* Footer */
+
+footer{
+margin-top:40px;
+color:#666;
+padding:20px;
+}

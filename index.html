@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Five-Fret HD</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="header-left">
+
+<img src="assets/logo.png" class="logo">
+
+<div class="title-group">
+<p class="subtitle">
+A collection of every Rock Band and Guitar Hero song ready for download.
+</p>
+</div>
+
+</div>
+
+<div class="header-center">
+
+<input
+type="text"
+id="search"
+placeholder="Search songs or artists..."
+onkeyup="searchSongs()"
+>
+
+<button id="randomSong" class="tab">🎲 Random Song</button>
+
+<div class="tabs">
+
+<button
+class="tab active"
+onclick="switchTab('gh', this)"
+>
+Guitar Hero
+</button>
+
+<button
+class="tab"
+onclick="switchTab('gh2', this)"
+>
+Guitar Hero II
+</button>
+
+</div>
+
+</div>
+
+<div class="header-right">
+<p id="song-count"></p>
+</div>
+
+</header>
+
+<main>
+
+<div id="song-grid" class="song-grid"></div>
+
+</main>
+
+<footer>
+
+<p>This project is not affiliated with Harmonix.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
