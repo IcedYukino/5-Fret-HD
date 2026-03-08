@@ -191,6 +191,12 @@ gap:10px;
 margin-top:6px;
 }
 
+.source-icon{
+height:18px;
+width:auto;
+opacity:.9;
+}
+
 /* Song rating */
 
 .song-rating{
