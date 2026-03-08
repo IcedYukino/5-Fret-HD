@@ -87,7 +87,7 @@ function displaySongs(songList){
     songList.forEach(song => {
 
         const card = document.createElement("div");
-        card.className = "song";
+        card.className = `song ${song.category}`;
 
         const rating = song.rating || "NR";
 
