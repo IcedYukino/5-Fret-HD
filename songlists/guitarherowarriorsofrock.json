@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Free Ride",
+    "artist": "The Edgar Winter Group",
+    "album": "They Only Come Out at Night",
+    "year": 1997,
+    "genre": "Classic Rock",
+    "cover": "covers/theedgarwintergrouptheyonlycomeoutatnight.png",
+    "category": "ghwor",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 2,
+      "bass": 2,
+      "drums": 2,
+      "vocals": 2
+  }
+  }
+]

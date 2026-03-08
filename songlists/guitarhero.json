@@ -1,0 +1,786 @@
+[
+  {
+    "title": "Callout",
+    "artist": "The Acro-Brats",
+    "album": "...Go Down Swinging!",
+    "year": 2006,
+    "genre": "Rock",
+    "cover": "covers/theacrobratsgodownswinging.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Behind the Mask",
+    "artist": "Anarchy Club",
+    "album": "The Way and Its Power",
+    "year": 2005,
+    "genre": "Metal",
+    "cover": "covers/anarchyclubthewayanditspower.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Trippolette",
+    "artist": "Andrew Buch",
+    "album": "Trippolette (Single)",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/harmonixguitarhero.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Cochise",
+    "artist": "Audioslave",
+    "album": "Audioslave",
+    "year": 2002,
+    "genre": "Rock",
+    "cover": "covers/audioslaveaudioslave.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Infected",
+    "artist": "Bad Religion",
+    "album": "Stranger Than Fiction",
+    "year": 1994,
+    "genre": "Punk",
+    "cover": "covers/badreligionstrangerthanfiction.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Caveman Rejoice",
+    "artist": "The Bags",
+    "album": "Sharpen Your Sticks",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/thebagssharpenyoursticks.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Fire It Up",
+    "artist": "Black Label Society",
+    "album": "Mafia",
+    "year": 2005,
+    "genre": "Metal",
+    "cover": "covers/blacklabelsocietymafia.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Iron Man",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "genre": "Metal",
+    "cover": "covers/blacksabbathparanoid.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Godzilla",
+    "artist": "Blue Öyster Cult",
+    "album": "Spectres",
+    "year": 1977,
+    "genre": "Classic Rock",
+    "cover": "covers/blueoystercultspectres.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "More Than a Feeling",
+    "artist": "Boston",
+    "album": "Boston",
+    "year": 1976,
+    "genre": "Classic Rock",
+    "cover": "covers/bostonboston.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "The Breaking Wheel",
+    "artist": "Breaking Wheel",
+    "album": "Breaking Wheel",
+    "year": 2008,
+    "genre": "Metal",
+    "cover": "covers/breakingwheelbreakingwheel.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Heart Full of Black",
+    "artist": "Burning Brides",
+    "album": "Leave No Ashes",
+    "year": 2004,
+    "genre": "Rock",
+    "cover": "covers/burningbridesleavenoashes.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Sail Your Ship By",
+    "artist": "Count Zero",
+    "album": "Little Minds",
+    "year": 2004,
+    "genre": "Rock",
+    "cover": "covers/countzerolittleminds.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Crossroads",
+    "artist": "Cream",
+    "album": "Wheels of Fire",
+    "year": 1968,
+    "genre": "Classic Rock",
+    "cover": "covers/creamwheelsoffire.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Ziggy Stardust",
+    "artist": "David Bowie",
+    "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+    "year": 1972,
+    "genre": "Glam",
+    "cover": "covers/davidbowietheriseandfallofziggystardustandthespidersfrommars.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Smoke on the Water",
+    "artist": "Deep Purple",
+    "album": "Machine Head",
+    "year": 1972,
+    "genre": "Prog",
+    "cover": "covers/deeppurplemachinehead.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Fly on the Wall",
+    "artist": "Din",
+    "album": "Longhair Music",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/dinlonghairmusic.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Take It Off",
+    "artist": "The Donnas",
+    "album": "Spend the Night",
+    "year": 2002,
+    "genre": "Rock",
+    "cover": "covers/thedonnasspendthenight.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Decontrol",
+    "artist": "Drist",
+    "album": "Orchids and Ammunition",
+    "year": 2006,
+    "genre": "Metal",
+    "cover": "covers/dristorchidsandammunition.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Frankenstein",
+    "artist": "The Edgar Winter Group",
+    "album": "They Only Come Out at Night",
+    "year": 1972,
+    "genre": "Classic Rock",
+    "cover": "covers/theedgarwintergrouptheyonlycomeoutatnight.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Hey You",
+    "artist": "The Exies",
+    "album": "Head for the Door",
+    "year": 2004,
+    "genre": "Rock",
+    "cover": "covers/theexiesheadforthedoor.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Take Me Out",
+    "artist": "Franz Ferdinand",
+    "album": "Franz Ferdinand",
+    "year": 2004,
+    "genre": "Alternative",
+    "cover": "covers/franzferdinandfranzferdinand.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+    {
+    "title": "Get Ready 2 Rokk",
+    "artist": "Freezepop",
+    "album": "Freezepop Forever",
+    "year": 2000,
+    "genre": "Pop/Dance/Electronic",
+    "cover": "covers/freezepopfreezepopforever.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Cheat on the Church",
+    "artist": "Graveyard BBQ",
+    "album": "Greatest Hits Volume I",
+    "year": 2005,
+    "genre": "Metal",
+    "cover": "covers/graveyardbbqgreatesthitsvolumei.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Graveyard Shift",
+    "artist": "Gurney",
+    "album": "Graveyard Shift (Single)",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/harmonixguitarhero.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Unsung",
+    "artist": "Helmet",
+    "album": "Meantime",
+    "year": 1992,
+    "genre": "Metal",
+    "cover": "covers/helmetmeantime.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Hey",
+    "artist": "Honest Bob and the Factory-to-Dealer Incentives",
+    "album": "Second and Eighteen",
+    "year": 2005,
+    "genre": "Indie Rock",
+    "cover": "covers/honestbobandthefactorytodealerincentivessecond&eighteen.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Stellar",
+    "artist": "Incubus",
+    "album": "Make Yourself",
+    "year": 1999,
+    "genre": "Alternative",
+    "cover": "covers/incubusmakeyourself.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Spanish Castle Magic",
+    "artist": "The Jimi Hendrix Experience",
+    "album": "Axis: Bold as Love",
+    "year": 1967,
+    "genre": "Classic Rock",
+    "cover": "covers/thejimihendrixexperienceaxisboldaslove.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "I Love Rock N' Roll",
+    "artist": "Joan Jett & The Blackhearts",
+    "album": "I Love Rock N' Roll",
+    "year": 1981,
+    "genre": "Punk",
+    "cover": "covers/joanjett&theblackheartsiloverocknroll.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "You've Got Another Thing Comin'",
+    "artist": "Judas Priest",
+    "album": "Screaming for Vengeance",
+    "year": 1982,
+    "genre": "Metal",
+    "cover": "covers/judaspriestscreamingforvengeance.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Farewell Myth",
+    "artist": "Made in Mexico",
+    "album": "Zodiac Zoo",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/madeinmexicozodiaczoo.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Symphony of Destruction",
+    "artist": "Megadeth",
+    "album": "Countdown to Extinction",
+    "year": 1992,
+    "genre": "Metal",
+    "cover": "covers/megadethcountdowntoextinction.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Story of My Love",
+    "artist": "The Model Sons",
+    "album": "The Model Sons",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/themodelsonsthemodelsons.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Guitar Hero",
+    "artist": "Monkey Steals the Peach",
+    "album": "Guitar Hero (Single)",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/harmonixguitarhero.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+    {
+    "title": "Ace of Spades",
+    "artist": "Motörhead",
+    "album": "Ace of Spades",
+    "year": 1980,
+    "genre": "Metal",
+    "cover": "covers/motörheadaceofspades.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Bark at the Moon",
+    "artist": "Ozzy Osbourne",
+    "album": "Bark at the Moon",
+    "year": 1983,
+    "genre": "Metal",
+    "cover": "covers/ozzyosbournebarkatthemoon.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Cowboys From Hell",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "genre": "Metal",
+    "cover": "covers/panteracowboysfromhell.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Killer Queen",
+    "artist": "Queen",
+    "album": "Sheer Heart Attack",
+    "year": 1974,
+    "genre": "Classic Rock",
+    "cover": "covers/queensheerheartattack.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "No One Knows",
+    "artist": "Queens of the Stone Age",
+    "album": "Songs for the Deaf",
+    "year": 2002,
+    "genre": "Alternative",
+    "cover": "covers/queensofthestoneagesongsforthedeaf.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "I Wanna Be Sedated",
+    "artist": "Ramones",
+    "album": "Road to Ruin",
+    "year": 1978,
+    "genre": "Punk",
+    "cover": "covers/ramonesroadtoruin.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Higher Ground",
+    "artist": "Red Hot Chili Peppers",
+    "album": "Mother's Milk",
+    "year": 1989,
+    "genre": "Alternative",
+    "cover": "covers/redhotchilipeppersmothersmilk.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "All of This",
+    "artist": "Shaimus",
+    "album": "Paper Sun",
+    "year": 2006,
+    "genre": "Indie Rock",
+    "cover": "covers/shaimuspapersun.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Even Rats",
+    "artist": "The Slip",
+    "album": "Eisenhower",
+    "year": 2006,
+    "genre": "Indie Rock",
+    "cover": "covers/theslipeisenhower.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Texas Flood",
+    "artist": "Stevie Ray Vaughan and Double Trouble",
+    "album": "Texas Flood",
+    "year": 1983,
+    "genre": "Blues",
+    "cover": "covers/stevierayvaughananddoubletrouble.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Fat Lip",
+    "artist": "Sum 41",
+    "album": "All Killer, No Filler",
+    "year": 2001,
+    "genre": "Punk",
+    "cover": "covers/sum41allkillernofiller.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Eureka, I've Found Love",
+    "artist": "The Upper Crust",
+    "album": "Once More Into the Breeches",
+    "year": 2001,
+    "genre": "Rock",
+    "cover": "covers/theuppercrustoncemoreintothebreeches.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Thunder Kiss '65",
+    "artist": "White Zombie",
+    "album": "La Sexorcisto: Devil Music, Vol. 1",
+    "year": 1992,
+    "genre": "Metal",
+    "cover": "covers/whitezombielasexorcistodevilmusicvol1.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Sharp Dressed Man",
+    "artist": "ZZ Top",
+    "album": "Eliminator",
+    "year": 1983,
+    "genre": "Rock",
+    "cover": "covers/zztopeliminator.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  }
+]
