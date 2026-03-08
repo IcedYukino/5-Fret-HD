@@ -14,5 +14,37 @@
       "drums": 6,
       "vocals": 3
   }
+  },
+  {
+    "title": "3's & 7's",
+    "artist": "Queens of the Stone Age",
+    "album": "Era Vulgaris",
+    "year": 2007,
+    "genre": "Alternative",
+    "cover": "covers/queensofthestoneageeravulgaris.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 3,
+      "bass": 2,
+      "drums": 3,
+      "vocals": 1
+  }
+  },
+  {
+    "title": "Bang a Gong",
+    "artist": "T.Rex",
+    "album": "Electric Warrior",
+    "year": 1971,
+    "genre": "Glam",
+    "cover": "covers/trexelectricwarrior.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 3,
+      "bass": 2,
+      "drums": 3,
+      "vocals": 1
+  }
   }
 ]
