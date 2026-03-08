@@ -1,9 +1,13 @@
 let songs = [];
 let currentTab = "gh";
 
-fetch("songs.json")
+fetch("songlists/guitarhero.json")
 .then(response => response.json())
 .then(data => {
+
+fetch("songlists/guitarherowarriorsofrock.json")
+.then(response => response.json())
+.then(data => {  
 
 songs = data;
 displaySongs(songs);
