@@ -9,10 +9,11 @@
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
-      "guitar": ,
-      "bass": ,
-      "drums": ,
-      "vocals": 
+      "band": 4,
+      "guitar": 5,
+      "bass": 5,
+      "drums": 6,
+      "vocals": 3
   }
   }
 ]
