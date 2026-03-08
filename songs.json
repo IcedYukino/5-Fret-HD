@@ -7,6 +7,7 @@
     "genre": "Metal",
     "cover": "covers/anarchyclubthewayanditspower.png",
     "category": "gh",
+    "rating": "SR",
     "difficulty": {
       "guitar": 0,
       "bass": -1,
