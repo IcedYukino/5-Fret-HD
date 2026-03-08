@@ -23,8 +23,13 @@ async function loadSongs(tab){
     }
     else if(tab === "all"){
 
-        const index = await fetch("songlists/index.json");
-        files = await index.json();
+        try{
+            const index = await fetch("./songlists/index.json");
+            files = await index.json();
+        }catch(err){
+            console.error("Failed to load index.json", err);
+            return;
+        }
 
     }
 
@@ -34,7 +39,7 @@ async function loadSongs(tab){
 
         try{
 
-            const res = await fetch(`songlists/${file}.json`);
+            const res = await fetch(`./songlists/${file}.json`);
 
             if(!res.ok){
                 console.warn(`Missing file: ${file}.json`);
@@ -67,6 +72,8 @@ async function loadSongs(tab){
 function displaySongs(songList){
 
     const grid = document.getElementById("song-grid");
+
+    if(!grid) return;
 
     grid.innerHTML = "";
 
@@ -188,9 +195,11 @@ async function switchTab(tab, button){
 
 }
 
-const randomBtn = document.getElementById("randomSong");
+window.addEventListener("DOMContentLoaded", () => {
 
-if(randomBtn){
+    const randomBtn = document.getElementById("randomSong");
+
+    if(!randomBtn) return;
 
     randomBtn.addEventListener("click", () => {
 
@@ -226,4 +235,4 @@ if(randomBtn){
 
     });
 
-}
+});
