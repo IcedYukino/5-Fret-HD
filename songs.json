@@ -1,1 +1,16 @@
-
+[
+  {
+    "title": "Behind the Mask",
+    "artist": "Anarchy Club",
+    "album": "The Way and Its Power",
+    "year": 2005,
+    "genre": "Metal",
+    "cover": "covers/thewayanditspower.png",
+    "category": "gh",
+    "difficulty": {
+      "guitar": 0,
+      "bass": na,
+      "drums": na,
+      "vocals": na
+    }
+  },
