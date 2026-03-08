@@ -1,5 +1,6 @@
 let songs = [];
 let currentTab = "all";
+let sortDirection = 1;
 
 window.addEventListener("DOMContentLoaded", async () => {
     await loadSongs("all");
@@ -59,6 +60,9 @@ async function loadSongs(tab){
     }
 
     songs = loadedSongs;
+
+    // automatically sort A → Z when loading
+    songs.sort((a,b)=>a.title.localeCompare(b.title));
 
     displaySongs(songs);
 
@@ -181,6 +185,27 @@ function searchSongs(){
 
 }
 
+function sortSongs(type){
+
+    songs.sort((a,b)=>{
+
+        const A = (a[type] || "").toLowerCase();
+        const B = (b[type] || "").toLowerCase();
+
+        if(A < B) return -1 * sortDirection;
+        if(A > B) return 1 * sortDirection;
+
+        return 0;
+
+    });
+
+    displaySongs(songs);
+
+    // toggle direction
+    sortDirection *= -1;
+
+}
+
 async function switchTab(tab, button){
 
     currentTab = tab;
@@ -192,32 +217,6 @@ async function switchTab(tab, button){
     button.classList.add("active");
 
     await loadSongs(tab);
-
-}
-
-let sortDirection = 1;
-
-function sortSongs(type){
-
-songs.sort((a,b)=>{
-
-const A = (a[type] || "").toLowerCase();
-const B = (b[type] || "").toLowerCase();
-
-if(A < B) return -1 * sortDirection;
-if(A > B) return 1 * sortDirection;
-
-return 0;
-
-});
-
-displaySongs(songs);
-
-/* toggle AFTER sorting */
-sortDirection *= -1;
-
-}
-    displaySongs(songs);
 
 }
 
