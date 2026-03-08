@@ -184,19 +184,20 @@ margin:2px 0;
 /* Genre + Rating row */
 
 .genre-row{
+position:relative;
 display:flex;
 align-items:center;
 justify-content:center;
-gap:10px;
+gap:8px;
 margin-top:6px;
 }
 
 .source-icon{
+position:absolute;
+left:0;
 width:18px;
 height:18px;
-object-fit:cover;
-border-radius:3px;
-display:block;
+object-fit:contain;
 opacity:.95;
 filter:drop-shadow(0 0 3px rgba(255,255,255,.35));
 }
