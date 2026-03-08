@@ -400,6 +400,38 @@
   }
   },
   {
+    "title": "Farewell Myth",
+    "artist": "Made in Mexico",
+    "album": "Zodiac Zoo",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/madeinmexicozodiaczoo.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Symphony of Destruction",
+    "artist": "Megadeth",
+    "album": "Countdown to Extinction",
+    "year": 1992,
+    "genre": "Metal",
+    "cover": "covers/megadethcountdowntoextinction.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
     "title": "Even Rats",
     "artist": "The Slip",
     "album": "Eisenhower",
