@@ -1,11 +1,12 @@
 let songs = [];
-let currentTab = "guitarhero";
+let currentTab = "gh";
+let currentFile = "guitarhero";
 
-loadSongs(currentTab);
+loadSongs(currentFile);
 
-function loadSongs(list){
+function loadSongs(file){
 
-fetch(`songlists/${list}.json`)
+fetch(`songlists/${file}.json`)
 .then(response => response.json())
 .then(data => {
 
@@ -21,10 +22,14 @@ function displaySongs(songList){
 const grid = document.getElementById("song-grid");
 grid.innerHTML = "";
 
-document.getElementById("song-count").innerText =
-songList.length + " songs";
+const filtered = songList.filter(song =>
+song.category === currentTab
+);
 
-songList.forEach(song => {
+document.getElementById("song-count").innerText =
+filtered.length + " songs";
+
+filtered.forEach(song => {
 
 const card = document.createElement("div");
 card.className = "song";
@@ -118,17 +123,19 @@ function searchSongs(){
 const input = document.getElementById("search").value.toLowerCase();
 
 const filtered = songs.filter(song =>
-song.title.toLowerCase().includes(input) ||
-song.artist.toLowerCase().includes(input)
+(song.title.toLowerCase().includes(input) ||
+song.artist.toLowerCase().includes(input)) &&
+song.category === currentTab
 );
 
 displaySongs(filtered);
 
 }
 
-function switchTab(tab, button){
+function switchTab(tab, file, button){
 
 currentTab = tab;
+currentFile = file;
 
 document.querySelectorAll(".tab").forEach(btn=>{
 btn.classList.remove("active");
@@ -136,15 +143,17 @@ btn.classList.remove("active");
 
 button.classList.add("active");
 
-loadSongs(tab);
+loadSongs(file);
 
 }
 
 document.getElementById("randomSong").addEventListener("click", () => {
 
-const random = songs[Math.floor(Math.random() * songs.length)];
+const visibleSongs = songs.filter(song => song.category === currentTab);
 
-displaySongs(songs);
+const random = visibleSongs[Math.floor(Math.random() * visibleSongs.length)];
+
+displaySongs(visibleSongs);
 
 setTimeout(() => {
 
