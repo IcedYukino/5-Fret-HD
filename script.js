@@ -32,18 +32,16 @@ const responses = await Promise.all(
 files.map(file => fetch(`songlists/${file}.json`))
 );
 
-const jsonData = await Promise.all(
+const data = await Promise.all(
 responses.map(res => res.json())
 );
 
-songs = jsonData.flat();
+songs = data.flat();
 
 displaySongs(songs);
 
 document.getElementById("song-count").innerText =
 songs.length + " songs";
-
-});
 
 }
 
