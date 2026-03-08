@@ -20,12 +20,12 @@ else if(tab === "ghwordlc"){
 files = ["guitarherowarriorsofrockdlc"];
 }
 else if(tab === "all"){
-files = [
-"guitarhero",
-"guitarhero2",
-"guitarherowarriorsofrock",
-"guitarherowarriorsofrockdlc"
-];
+
+const index = await fetch("songlists/index.json")
+.then(response => response.json());
+
+files = index;
+
 }
 
 const responses = await Promise.all(
