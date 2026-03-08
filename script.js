@@ -98,7 +98,7 @@ function displaySongs(songList){
 
 <div class="genre-row">
 
-    ${song.source ? `<img class="source-icon" src="./assets/${song.source}.png">` : ""}
+   ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
 
     <span class="genre-tag ${song.genre.toLowerCase().replace(/[^a-z]/g,'')}">
         ${song.genre}
