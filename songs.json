@@ -1,5 +1,21 @@
 [
   {
+    "title": "Callout",
+    "artist": "The Acro-Brats",
+    "album": "...Go Down Swinging!",
+    "year": 2006,
+    "genre": "Rock",
+    "cover": "covers/theacrobratsgodownswinging.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
     "title": "Behind the Mask",
     "artist": "Anarchy Club",
     "album": "The Way and Its Power",
@@ -54,6 +70,22 @@
     "year": 1994,
     "genre": "Punk",
     "cover": "covers/badreligionstrangerthanfiction.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Caveman Rejoice",
+    "artist": "The Bags",
+    "album": "Sharpen Your Sticks",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/thebagssharpenyoursticks.png",
     "category": "gh",
     "rating": "SR",
     "difficulty": {
@@ -432,6 +464,150 @@
   }
   },
   {
+    "title": "Story of My Love",
+    "artist": "The Model Sons",
+    "album": "The Model Sons",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/themodelsonsthemodelsons.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Guitar Hero",
+    "artist": "Monkey Steals the Peach",
+    "album": "Guitar Hero (Single)",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/harmonixguitarhero.png",
+    "category": "gh",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+    {
+    "title": "Ace of Spades",
+    "artist": "Motörhead",
+    "album": "Ace of Spades",
+    "year": 1980,
+    "genre": "Metal",
+    "cover": "covers/motörheadaceofspades.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Bark at the Moon",
+    "artist": "Ozzy Osbourne",
+    "album": "Bark at the Moon",
+    "year": 1983,
+    "genre": "Metal",
+    "cover": "covers/ozzyosbournebarkatthemoon.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Cowboys From Hell",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "genre": "Metal",
+    "cover": "covers/panteracowboysfromhell.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Killer Queen",
+    "artist": "Queen",
+    "album": "Sheer Heart Attack",
+    "year": 1974,
+    "genre": "Classic Rock",
+    "cover": "covers/queensheerheartattack.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "No One Knows",
+    "artist": "Queens of the Stone Age",
+    "album": "Songs for the Deaf",
+    "year": 2002,
+    "genre": "Alternative",
+    "cover": "covers/queensofthestoneagesongsforthedeaf.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "I Wanna Be Sedated",
+    "artist": "Ramones",
+    "album": "Road to Ruin",
+    "year": 1978,
+    "genre": "Punk",
+    "cover": "covers/ramonesroadtoruin.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Higher Ground",
+    "artist": "Red Hot Chili Peppers",
+    "album": "Mother's Milk",
+    "year": 1989,
+    "genre": "Alternative",
+    "cover": "covers/redhotchilipeppersmothersmilk.png",
+    "category": "gh",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
     "title": "Even Rats",
     "artist": "The Slip",
     "album": "Eisenhower",
@@ -440,6 +616,22 @@
     "cover": "covers/theslipeisenhower.png",
     "category": "gh",
     "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  },
+  {
+    "title": "Texas Flood",
+    "artist": "Stevie Ray Vaughan and Double Trouble",
+    "album": "Texas Flood",
+    "year": 1983,
+    "genre": "Blues",
+    "cover": "covers/stevierayvaughananddoubletrouble.png",
+    "category": "gh",
+    "rating": "FF",
     "difficulty": {
       "guitar": 0,
       "bass": -1,
