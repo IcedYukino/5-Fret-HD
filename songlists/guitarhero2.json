@@ -1,0 +1,18 @@
+[
+  {
+    "title": "War Pigs",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "genre": "Metal",
+    "cover": "covers/blacksabbathparanoid.png",
+    "category": "gh2",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": -1,
+      "drums": -1,
+      "vocals": -1
+  }
+  }
+]
