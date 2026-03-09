@@ -110,5 +110,69 @@
       "drums": 1,
       "vocals": 0
   }
+  },
+  {
+    "title": "Can't Stand Losing You",
+    "artist": "The Police",
+    "album": "Outlandos d'Amour",
+    "year": 1978,
+    "genre": "Rock",
+    "cover": "covers/thepoliceoutlandosdamour.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 0,
+      "drums": 3,
+      "vocals": 3
+  }
+  },
+  {
+    "title": "Cherry Bomb",
+    "artist": "The Runaways",
+    "album": "The Runaways",
+    "year": 1976,
+    "genre": "Punk",
+    "cover": "covers/therunawaystherunaways.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 1,
+      "drums": 3,
+      "vocals": 0
+  }
+  },
+  {
+    "title": "Dirty Little Secret",
+    "artist": "All-American Rejects",
+    "album": "Move Along",
+    "year": 2005,
+    "genre": "Emo",
+    "cover": "covers/allamericanrejectsmovealong.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 0,
+      "drums": 2,
+      "vocals": 3
+  }
+  },
+  {
+    "title": "Ever Fallen in Love",
+    "artist": "Buzzcocks",
+    "album": "Love Bites",
+    "year": 1978,
+    "genre": "Punk",
+    "cover": "covers/buzzcockslovebites.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": 0,
+      "drums": 0,
+      "vocals": 0
+  }
   }
 ]
