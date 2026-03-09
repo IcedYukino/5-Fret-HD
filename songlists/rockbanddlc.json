@@ -245,7 +245,7 @@
     "album": "4",
     "year": 1981,
     "genre": "Classic Rock",
-    "cover": "covers/foreigner4",
+    "cover": "covers/foreigner4.png",
     "category": "rb1dlc",
     "rating": "FF",
     "difficulty": {
@@ -261,7 +261,7 @@
     "album": "Lullabies to Paralyze",
     "year": 2005,
     "genre": "Alternative",
-    "cover": "covers/queensofthestoneagelullabiestoparalyze",
+    "cover": "covers/queensofthestoneagelullabiestoparalyze.png",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
@@ -277,7 +277,7 @@
     "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
     "year": 1972,
     "genre": "Glam",
-    "cover": "covers/davidbowietheriseandfallofziggystardustandthespidersfrommars",
+    "cover": "covers/davidbowietheriseandfallofziggystardustandthespidersfrommars.png",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
