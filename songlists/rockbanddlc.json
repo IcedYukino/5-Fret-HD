@@ -30,6 +30,22 @@
       "drums": 3,
       "vocals": 1
   }
+  },    
+  {
+    "title": "Attack",
+    "artist": "30 Seconds to Mars",
+    "album": "A Beautiful Lie",
+    "year": 2005,
+    "genre": "Emo",
+    "cover": "covers/30secondstomarsabeautifullie.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 0,
+      "drums": 3,
+      "vocals": 3
+  }
   },
   {
     "title": "Bang a Gong",
@@ -46,5 +62,20 @@
       "drums": 3,
       "vocals": 1
   }
+  {
+    "title": "Blackened",
+    "artist": "Metallica",
+    "album": "...And Justice for All",
+    "year": 1988,
+    "genre": "Metal",
+    "cover": "covers/metallicaandjusticeforall.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 6,
+      "bass": 6,
+      "drums": 6,
+      "vocals": 3
+  }  
   }
 ]
