@@ -279,13 +279,13 @@ font-weight:bold;
 .blues{background:#1e40af;color:#fff;box-shadow:0 0 8px #1e40af;}
 
 /* Classic Rock */
-.classicrock{background:#ff9f1c;color:#000;box-shadow:0 0 8px #ff9f1c;}
+.classicrock{background:#ff9f1c;color:#fff;box-shadow:0 0 8px #ff9f1c;}
 
 /* Classical */
-.classical{background:#d8b4fe;color:#000;box-shadow:0 0 8px #d8b4fe;}
+.classical{background:#d8b4fe;color:#fff;box-shadow:0 0 8px #d8b4fe;}
 
 /* Country */
-.country{background:#facc15;color:#000;box-shadow:0 0 8px #facc15;}
+.country{background:#facc15;color:#fff;box-shadow:0 0 8px #facc15;}
 
 /* Emo */
 .emo{background:#ec4899;color:#fff;box-shadow:0 0 8px #ec4899;}
@@ -306,7 +306,7 @@ font-weight:bold;
 .jrock{background:#ff4d4d;color:#fff;box-shadow:0 0 8px #ff4d4d;}
 
 /* Novelty */
-.novelty{background:#ffd166;color:#000;box-shadow:0 0 8px #ffd166;}
+.novelty{background:#ffd166;color:#fff;box-shadow:0 0 8px #ffd166;}
 
 /* Nu Metal */
 .numetal{background:#4b5563;color:#fff;box-shadow:0 0 8px #4b5563;}
