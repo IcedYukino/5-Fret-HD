@@ -174,5 +174,68 @@
       "drums": 0,
       "vocals": 0
   }
+  },
+  {
+    "title": "Fortunate Son",
+    "artist": "Creedence Clearwater Revival",
+    "album": "Willy and the Poor Boys",
+    "year": 1969,
+    "genre": "Southern Rock",
+    "cover": "covers/creedenceclearwaterrevivalwillyandthepoorboys.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": 0,
+      "drums": 0,
+      "vocals": 0
   }
+  },
+  {
+    "title": "Heroes",
+    "artist": "David Bowie",
+    "album": "Heroes",
+    "year": 1977,
+    "genre": "Glam",
+    "cover": "covers/davidbowieheroes.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": 0,
+      "drums": 0,
+      "vocals": 0
+  }
+  },    
+  {
+    "title": "I Fought the Law",
+    "artist": "The Clash",
+    "album": "The Clash",
+    "year": 1977,
+    "genre": "Punk",
+    "cover": "covers/theclashtheclash.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 0,
+      "drums": 3,
+      "vocals": 1
+  }  
+  },    
+  {
+    "title": "Joker & the Thief",
+    "artist": "Wolfmother",
+    "album": "Wolfmother",
+    "year": 2005,
+    "genre": "Rock",
+    "cover": "covers/wolfmotherwolfmother.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 5,
+      "bass": 5,
+      "drums": 3,
+      "vocals": 3
+  }      
 ]
