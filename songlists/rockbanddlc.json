@@ -78,5 +78,37 @@
       "drums": 6,
       "vocals": 3
   }  
+  },
+  {
+    "title": ""Brass in Pocket"",
+    "artist": "The Pretenders",
+    "album": "Pretenders",
+    "year": 1980,
+    "genre": "New Wave",
+    "cover": "covers/thepretenderspretenders.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 0,
+      "drums": 0,
+      "vocals": 0
+  }
+  },
+  {
+    "title": ""Buddy Holly"",
+    "artist": "Weezer",
+    "album": "Weezer (The Blue Album)",
+    "year": 1994,
+    "genre": "Alternative",
+    "cover": "covers/weezerweezerthebluealbum.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 0,
+      "drums": 1,
+      "vocals": 0
+  }
   }
 ]
