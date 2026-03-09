@@ -238,5 +238,53 @@
       "drums": 3,
       "vocals": 3
   }
-  }
-]
+  },
+  {
+    "title": "Juke Box Hero",
+    "artist": "Foreigner",
+    "album": "4",
+    "year": 1981,
+    "genre": "Classic Rock",
+    "cover": "covers/foreigner4",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": 0,
+      "drums": 0,
+      "vocals": 0
+  }  
+  }, 
+  {
+    "title": "Little Sister",
+    "artist": "Queens of the Stone Age",
+    "album": "Lullabies to Paralyze",
+    "year": 2005,
+    "genre": "Alternative",
+    "cover": "covers/queensofthestoneagelullabiestoparalyze",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 3,
+      "bass": 3,
+      "drums": 5,
+      "vocals": 1
+  }  
+  },
+  {
+    "title": "Moonage Daydream",
+    "artist": "David Bowie",
+    "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+    "year": 1972,
+    "genre": "Glam",
+    "cover": "covers/davidbowietheriseandfallofziggystardustandthespidersfrommars",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": 0,
+      "drums": 0,
+      "vocals": 0
+    }
+    }
+    ]
