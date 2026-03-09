@@ -255,46 +255,46 @@ font-weight:bold;
 /* Genre colors */
 
 /* Punk */
-.punk{background:#2b8ffb;color:#fff;box-shadow:0 0 8px #2b8ffb;}
+.punk{background:#ff3b3b;color:#fff;box-shadow:0 0 8px #ff3b3b;}
 
 /* Southern Rock */
-.southernrock{background:#ff8c00;color:#fff;box-shadow:0 0 8px #ff8c00;}
+.southernrock{background:#ff7a18;color:#fff;box-shadow:0 0 8px #ff7a18;}
 
 /* Metal */
-.metal{background:#fb2b2b;color:#fff;box-shadow:0 0 8px #fb2b2b;}
+.metal{background:#8b0000;color:#fff;box-shadow:0 0 8px #8b0000;}
 
 /* Pop / Dance / Electronic */
-.popdanceelectronic{background:#00cfff;color:#fff;box-shadow:0 0 8px #00cfff;}
+.popdanceelectronic{background:#00d4ff;color:#fff;box-shadow:0 0 8px #00d4ff;}
 
 /* New Wave */
 .newwave{background:#a855f7;color:#fff;box-shadow:0 0 8px #a855f7;}
 
 /* Other */
-.other{background:#666;color:#fff;box-shadow:0 0 6px #999;}
+.other{background:#555;color:#fff;box-shadow:0 0 6px #888;}
 
 /* Alternative */
-.alternative{background:#3b82f6;color:#fff;box-shadow:0 0 8px #3b82f6;}
+.alternative{background:#4f46e5;color:#fff;box-shadow:0 0 8px #4f46e5;}
 
 /* Blues */
-.blues{background:#2563eb;color:#fff;box-shadow:0 0 8px #2563eb;}
+.blues{background:#1e40af;color:#fff;box-shadow:0 0 8px #1e40af;}
 
 /* Classic Rock */
-.classicrock{background:#f97316;color:#fff;box-shadow:0 0 8px #f97316;}
+.classicrock{background:#ff9f1c;color:#000;box-shadow:0 0 8px #ff9f1c;}
 
 /* Classical */
-.classical{background:#c084fc;color:#fff;box-shadow:0 0 8px #c084fc;}
+.classical{background:#d8b4fe;color:#000;box-shadow:0 0 8px #d8b4fe;}
 
 /* Country */
-.country{background:#eab308;color:#000;box-shadow:0 0 8px #eab308;}
+.country{background:#facc15;color:#000;box-shadow:0 0 8px #facc15;}
 
 /* Emo */
 .emo{background:#ec4899;color:#fff;box-shadow:0 0 8px #ec4899;}
 
 /* Glam */
-.glam{background:#f472b6;color:#fff;box-shadow:0 0 8px #f472b6;}
+.glam{background:#ff66cc;color:#fff;box-shadow:0 0 8px #ff66cc;}
 
 /* Grunge */
-.grunge{background:#78716c;color:#fff;box-shadow:0 0 8px #78716c;}
+.grunge{background:#6b7280;color:#fff;box-shadow:0 0 8px #6b7280;}
 
 /* Hip Hop / Rap */
 .hiphoprap{background:#22c55e;color:#fff;box-shadow:0 0 8px #22c55e;}
@@ -303,13 +303,13 @@ font-weight:bold;
 .indierock{background:#6366f1;color:#fff;box-shadow:0 0 8px #6366f1;}
 
 /* J-Rock */
-.jrock{background:#ef4444;color:#fff;box-shadow:0 0 8px #ef4444;}
+.jrock{background:#ff4d4d;color:#fff;box-shadow:0 0 8px #ff4d4d;}
 
 /* Novelty */
-.novelty{background:#facc15;color:#000;box-shadow:0 0 8px #facc15;}
+.novelty{background:#ffd166;color:#000;box-shadow:0 0 8px #ffd166;}
 
 /* Nu Metal */
-.numetal{background:#6b7280;color:#fff;box-shadow:0 0 8px #6b7280;}
+.numetal{background:#4b5563;color:#fff;box-shadow:0 0 8px #4b5563;}
 
 /* Pop Rock */
 .poprock{background:#38bdf8;color:#fff;box-shadow:0 0 8px #38bdf8;}
@@ -318,13 +318,13 @@ font-weight:bold;
 .prog{background:#8b5cf6;color:#fff;box-shadow:0 0 8px #8b5cf6;}
 
 /* Reggae / Ska */
-.reggaeska{background:#22c55e;color:#fff;box-shadow:0 0 8px #22c55e;}
+.reggaeska{background:#16a34a;color:#fff;box-shadow:0 0 8px #16a34a;}
 
 /* Rock */
 .rock{background:#ef4444;color:#fff;box-shadow:0 0 8px #ef4444;}
 
 /* R&B / Soul / Funk */
-.rbsoulfunk{background:#ec4899;color:#fff;box-shadow:0 0 8px #ec4899;}
+.rbsoulfunk{background:#db2777;color:#fff;box-shadow:0 0 8px #db2777;}
 
 /* Difficulty dropdown */
 
