@@ -4,6 +4,7 @@ let sortDirection = 1;
 
 window.addEventListener("DOMContentLoaded", async () => {
     await loadSongs("all");
+    setupOverlayClose();
 });
 
 async function loadSongs(tab){
@@ -151,16 +152,26 @@ ${createDifficulty(song.difficulty?.drums)}
 ${createDifficulty(song.difficulty?.vocals)}
 </div>
 
+<div class="more-info-row">
+<button class="more-info-btn">More Info</button>
+</div>
+
 </div>
 `;
 
         grid.appendChild(card);
 
+        const dropdown = card.querySelector(".difficulty-dropdown");
+
         card.addEventListener("click", () => {
-
-            const dropdown = card.querySelector(".difficulty-dropdown");
             dropdown.classList.toggle("open");
+        });
 
+        const infoBtn = card.querySelector(".more-info-btn");
+
+        infoBtn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            openSongInfo(song);
         });
 
     });
@@ -190,6 +201,43 @@ function createDifficulty(level){
     }
 
     return `<div class="diff-row">${bars}</div>`;
+
+}
+
+function openSongInfo(song){
+
+    const overlay = document.getElementById("song-info-overlay");
+
+    document.getElementById("info-cover").src = song.cover;
+    document.getElementById("info-title").innerText = song.title;
+    document.getElementById("info-artist").innerText = "Artist: " + song.artist;
+    document.getElementById("info-genre").innerText = "Genre: " + song.genre;
+    document.getElementById("info-source").innerText = "Source: " + song.category;
+    document.getElementById("info-rating").innerText = "Rating: " + (song.rating || "NR");
+
+    overlay.classList.add("open");
+
+}
+
+function closeSongInfo(){
+    document.getElementById("song-info-overlay").classList.remove("open");
+}
+
+function setupOverlayClose(){
+
+    const overlay = document.getElementById("song-info-overlay");
+
+    overlay.addEventListener("click", (e)=>{
+        if(e.target === overlay){
+            closeSongInfo();
+        }
+    });
+
+    document.addEventListener("keydown",(e)=>{
+        if(e.key === "Escape"){
+            closeSongInfo();
+        }
+    });
 
 }
 
