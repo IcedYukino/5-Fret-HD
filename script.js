@@ -210,6 +210,7 @@ function openSongInfo(song){
     const rating = song.rating || "NR";
 
     document.getElementById("info-cover").src = song.cover;
+    document.querySelector(".overlay-bg").style.backgroundImage = `url(${song.cover})`;
     document.getElementById("info-title").innerText = song.title;
     document.getElementById("info-artist").innerText = song.artist;
 
