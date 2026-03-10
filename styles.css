@@ -346,29 +346,6 @@ font-weight:bold;
 letter-spacing:1px;
 }
 
-/* MORE INFO BUTTON */
-
-.more-info-row{
-display:flex;
-justify-content:flex-end;
-margin-top:10px;
-}
-
-.more-info-btn{
-background:#0aa3ff;
-border:none;
-color:white;
-padding:6px 12px;
-border-radius:6px;
-font-size:12px;
-cursor:pointer;
-transition:.2s;
-}
-
-.more-info-btn:hover{
-background:#0784cc;
-}
-
 /* OVERLAY */
 
 .song-info-overlay{
@@ -450,44 +427,39 @@ gap:10px;
 color:#aaa;
 }
 
-/* OVERLAY DIFFICULTIES */
+/* FIXED OVERLAY DIFFICULTIES */
 
 .song-info-modal .difficulty-grid{
 margin-top:18px;
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:10px;
+gap:8px;
+align-items:start;
 }
 
 .song-info-modal .diff-box{
 background:#222;
-padding:10px 12px;
+padding:6px 10px;
 border-radius:8px;
-
 display:flex;
 align-items:center;
-gap:12px;
-
-min-height:0;
+gap:10px;
+height:auto;
 }
 
-/* icons */
-
 .song-info-modal .diff-icon{
-width:28px;
-height:28px;
+width:24px;
+height:24px;
 object-fit:contain;
 }
 
-/* difficulty bars */
-
 .song-info-modal .diff-row{
-gap:5px;
+gap:4px;
 }
 
 .song-info-modal .diff{
-width:20px;
-height:10px;
+width:18px;
+height:9px;
 border-radius:2px;
 }
 
