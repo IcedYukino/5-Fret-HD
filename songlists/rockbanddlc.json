@@ -56,6 +56,7 @@
     "cover": "covers/trexelectricwarrior.png",
     "category": "rb1dlc",
     "rating": "SR",
+    "master": false,
     "difficulty": {
       "guitar": 3,
       "bass": 2,
@@ -88,6 +89,7 @@
     "cover": "covers/thepretenderspretenders.png",
     "category": "rb1dlc",
     "rating": "FF",
+    "master": false,    
     "difficulty": {
       "guitar": 1,
       "bass": 0,
@@ -136,6 +138,7 @@
     "cover": "covers/therunawaystherunaways.png",
     "category": "rb1dlc",
     "rating": "SR",
+    "master": false,    
     "difficulty": {
       "guitar": 1,
       "bass": 1,
@@ -168,6 +171,7 @@
     "cover": "covers/buzzcockslovebites.png",
     "category": "rb1dlc",
     "rating": "FF",
+    "master": false,    
     "difficulty": {
       "guitar": 0,
       "bass": 0,
@@ -184,6 +188,7 @@
     "cover": "covers/creedenceclearwaterrevivalwillyandthepoorboys.png",
     "category": "rb1dlc",
     "rating": "FF",
+    "master": false,    
     "difficulty": {
       "guitar": 0,
       "bass": 0,
@@ -200,6 +205,7 @@
     "cover": "covers/davidbowieheroes.png",
     "category": "rb1dlc",
     "rating": "FF",
+    "master": false,    
     "difficulty": {
       "guitar": 0,
       "bass": 0,
@@ -248,6 +254,7 @@
     "cover": "covers/foreigner4.png",
     "category": "rb1dlc",
     "rating": "FF",
+    "master": false,    
     "difficulty": {
       "guitar": 0,
       "bass": 0,
@@ -328,6 +335,7 @@
     "cover": "covers/theknackgettheknack.png",
     "category": "rb1dlc",
     "rating": "SR",
+    "master": false,      
     "difficulty": {
       "guitar": 5,
       "bass": 2,
@@ -344,6 +352,7 @@
     "cover": "covers/blacksabbathblacksabbath.png",
     "category": "rb1dlc",
     "rating": "SR",
+    "master": false,      
     "difficulty": {
       "guitar": 2,
       "bass": 2,
@@ -360,6 +369,7 @@
     "cover": "covers/davidbowiehunkydory.png",
     "category": "rb1dlc",
     "rating": "SR",
+    "master": false,      
     "difficulty": {
       "guitar": 0,
       "bass": 0,
@@ -440,6 +450,7 @@
     "cover": "covers/thesoundsdyingtosaythistoyou.png",
     "category": "rb1dlc",
     "rating": "FF",
+    "master": false,      
     "difficulty": {
       "guitar": 2,
       "bass": 1,
@@ -456,6 +467,7 @@
     "cover": "covers/blacksabbathmasterofreality.png",
     "category": "rb1dlc",
     "rating": "SR",
+    "master": false,      
     "difficulty": {
       "guitar": 3,
       "bass": 3,
