@@ -55,6 +55,7 @@
     "genre": "Rock",
     "cover": "covers/audioslaveaudioslave.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -71,6 +72,7 @@
     "genre": "Punk",
     "cover": "covers/badreligionstrangerthanfiction.png",
     "category": "gh",
+    "master": false,  
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -119,6 +121,7 @@
     "genre": "Metal",
     "cover": "covers/blacksabbathparanoid.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -135,6 +138,7 @@
     "genre": "Classic Rock",
     "cover": "covers/blueoystercultspectres.png",
     "category": "gh",
+    "master": false,
     "rating": "FF",
     "difficulty": {
       "guitar": 0,
@@ -151,6 +155,7 @@
     "genre": "Classic Rock",
     "cover": "covers/bostonboston.png",
     "category": "gh",
+    "master": false,
     "rating": "FF",
     "difficulty": {
       "guitar": 0,
@@ -183,6 +188,7 @@
     "genre": "Rock",
     "cover": "covers/burningbridesleavenoashes.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -215,6 +221,7 @@
     "genre": "Classic Rock",
     "cover": "covers/creamwheelsoffire.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -231,6 +238,7 @@
     "genre": "Glam",
     "cover": "covers/davidbowietheriseandfallofziggystardustandthespidersfrommars.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -247,6 +255,7 @@
     "genre": "Prog",
     "cover": "covers/deeppurplemachinehead.png",
     "category": "gh",
+    "master": false,   
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -279,6 +288,7 @@
     "genre": "Rock",
     "cover": "covers/thedonnasspendthenight.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -311,6 +321,7 @@
     "genre": "Classic Rock",
     "cover": "covers/theedgarwintergrouptheyonlycomeoutatnight.png",
     "category": "gh",
+    "master": false,
     "rating": "FF",
     "difficulty": {
       "guitar": 0,
@@ -327,6 +338,7 @@
     "genre": "Rock",
     "cover": "covers/theexiesheadforthedoor.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -343,6 +355,7 @@
     "genre": "Alternative",
     "cover": "covers/franzferdinandfranzferdinand.png",
     "category": "gh",
+    "master": false,
     "rating": "FF",
     "difficulty": {
       "guitar": 0,
@@ -407,6 +420,7 @@
     "genre": "Metal",
     "cover": "covers/helmetmeantime.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -439,6 +453,7 @@
     "genre": "Alternative",
     "cover": "covers/incubusmakeyourself.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -455,6 +470,7 @@
     "genre": "Classic Rock",
     "cover": "covers/thejimihendrixexperienceaxisboldaslove.png",
     "category": "gh",
+    "master": false,
     "rating": "FF",
     "difficulty": {
       "guitar": 0,
@@ -471,6 +487,7 @@
     "genre": "Punk",
     "cover": "covers/joanjett&theblackheartsiloverocknroll.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -487,6 +504,7 @@
     "genre": "Metal",
     "cover": "covers/judaspriestscreamingforvengeance.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -519,6 +537,7 @@
     "genre": "Metal",
     "cover": "covers/megadethcountdowntoextinction.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -567,6 +586,7 @@
     "genre": "Metal",
     "cover": "covers/motörheadaceofspades.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -583,6 +603,7 @@
     "genre": "Metal",
     "cover": "covers/ozzyosbournebarkatthemoon.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -599,6 +620,7 @@
     "genre": "Metal",
     "cover": "covers/panteracowboysfromhell.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -615,6 +637,7 @@
     "genre": "Classic Rock",
     "cover": "covers/queensheerheartattack.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -631,6 +654,7 @@
     "genre": "Alternative",
     "cover": "covers/queensofthestoneagesongsforthedeaf.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -647,6 +671,7 @@
     "genre": "Punk",
     "cover": "covers/ramonesroadtoruin.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -663,6 +688,7 @@
     "genre": "Alternative",
     "cover": "covers/redhotchilipeppersmothersmilk.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -711,6 +737,7 @@
     "genre": "Blues",
     "cover": "covers/stevierayvaughananddoubletrouble.png",
     "category": "gh",
+    "master": false,
     "rating": "FF",
     "difficulty": {
       "guitar": 0,
@@ -727,6 +754,7 @@
     "genre": "Punk",
     "cover": "covers/sum41allkillernofiller.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -759,6 +787,7 @@
     "genre": "Metal",
     "cover": "covers/whitezombielasexorcistodevilmusicvol1.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
@@ -775,6 +804,7 @@
     "genre": "Rock",
     "cover": "covers/zztopeliminator.png",
     "category": "gh",
+    "master": false,
     "rating": "SR",
     "difficulty": {
       "guitar": 0,
