@@ -11,7 +11,11 @@
     "rating": "SR",
     "difficulty": {
       "guitar": 5,
+      "proguitar": 6,
       "bass": 5,
+      "probass": 6,
+      "keys": -1,
+      "prokeys": -1,
       "drums": 6,
       "vocals": 3
   }
