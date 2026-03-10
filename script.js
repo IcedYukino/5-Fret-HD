@@ -90,7 +90,11 @@ function displaySongs(songList){
 
         const rating = song.rating || "NR";
 
- const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
+        const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
+
+        const folder = song.downloadFolder || "Rock Band 1 DLC";
+        const file = song.file || "";
+
         card.innerHTML = `
 
 <div class="cover-container">
@@ -98,44 +102,52 @@ function displaySongs(songList){
     ${coverTag}
 </div>
 
-<h3>${song.title}</h3>
+<h3>
+<a class="song-download"
+href="songfiles/${folder}/${file}"
+download
+onclick="event.stopPropagation()">
+${song.title}
+</a>
+</h3>
+
 <p>${song.artist}</p>
 
 <div class="genre-row">
 
-   ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
+${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
 
-    <span class="genre-tag ${song.genre.toLowerCase().replace(/[^a-z]/g,'')}">
-        ${song.genre}
-    </span>
+<span class="genre-tag ${song.genre.toLowerCase().replace(/[^a-z]/g,'')}">
+${song.genre}
+</span>
 
-    <span class="song-rating ${rating}">
-        ${rating}
-    </span>
+<span class="song-rating ${rating}">
+${rating}
+</span>
 
 </div>
 
 <div class="difficulty-dropdown">
 
-    <div class="instrument">
-        <span>Guitar</span>
-        ${createDifficulty(song.difficulty?.guitar)}
-    </div>
+<div class="instrument">
+<span>Guitar</span>
+${createDifficulty(song.difficulty?.guitar)}
+</div>
 
-    <div class="instrument">
-        <span>Bass</span>
-        ${createDifficulty(song.difficulty?.bass)}
-    </div>
+<div class="instrument">
+<span>Bass</span>
+${createDifficulty(song.difficulty?.bass)}
+</div>
 
-    <div class="instrument">
-        <span>Drums</span>
-        ${createDifficulty(song.difficulty?.drums)}
-    </div>
+<div class="instrument">
+<span>Drums</span>
+${createDifficulty(song.difficulty?.drums)}
+</div>
 
-    <div class="instrument">
-        <span>Vocals</span>
-        ${createDifficulty(song.difficulty?.vocals)}
-    </div>
+<div class="instrument">
+<span>Vocals</span>
+${createDifficulty(song.difficulty?.vocals)}
+</div>
 
 </div>
 `;

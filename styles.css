@@ -165,6 +165,21 @@ transform:scale(1.05);
 box-shadow:0 0 15px #0aa3ff;
 }
 
+.song-download{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.song-download:visited{
+color:white;
+}
+
+.song-download:hover{
+color:#0aa3ff;
+text-decoration:underline;
+}
+
 /* Cover container */
 
 .cover-container{
