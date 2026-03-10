@@ -39,7 +39,6 @@ onkeyup="searchSongs()"
 
 <button id="randomSong" class="tab">🎲 Random Song</button>
 
-<!-- SORT BUTTONS -->
 <div class="sort-buttons">
 
 <button onclick="sortSongs('title')">
@@ -54,55 +53,34 @@ Sort by Artist
 
 <div class="tabs">
 
-<button
-class="tab active"
-onclick="switchTab('all', this)"
->
+<button class="tab active" onclick="switchTab('all', this)">
 All
 </button>
-  
-<button
-class="tab"
-onclick="switchTab('gh', this)"
->
+
+<button class="tab" onclick="switchTab('gh', this)">
 <img src="assets/gh.png" alt="Guitar Hero">
 </button>
 
-<button
-class="tab"
-onclick="switchTab('gh2', this)"
->
+<button class="tab" onclick="switchTab('gh2', this)">
 <img src="assets/gh2.png" alt="Guitar Hero II">
 </button>
 
-<button
-class="tab"
-onclick="switchTab('ghwor', this)"
->
-<img src="assets/ghwor.png" alt="Guitar Hero: Warriors of Rock">
+<button class="tab" onclick="switchTab('ghwor', this)">
+<img src="assets/ghwor.png" alt="Guitar Hero Warriors of Rock">
 </button>
 
-<button
-class="tab"
-onclick="switchTab('ghwordlc', this)"
->
-<img src="assets/ghwordlc.png" alt="Guitar Hero: Warriors of Rock DLC">
-</button> 
+<button class="tab" onclick="switchTab('ghwordlc', this)">
+<img src="assets/ghwordlc.png" alt="Guitar Hero WoR DLC">
+</button>
 
-<button
-class="tab"
-onclick="switchTab('rb1dlc', this)"
->
+<button class="tab" onclick="switchTab('rb1dlc', this)">
 <img src="assets/rb1dlc.png" alt="Rock Band DLC">
-</button>   
+</button>
 
-<button
-class="tab"
-onclick="switchTab('fnf', this)"
->
+<button class="tab" onclick="switchTab('fnf', this)">
 <img src="assets/fnf.png" alt="Fortnite Festival">
-</button>     
-  
+</button>
+
 </div>
 
 </div>
@@ -113,12 +91,13 @@ onclick="switchTab('fnf', this)"
 
 </header>
 
+
 <main>
 
-<!-- SONG CARDS ARE INSERTED HERE BY script.js -->
 <div id="song-grid" class="song-grid"></div>
 
 </main>
+
 
 <footer>
 
@@ -127,41 +106,101 @@ onclick="switchTab('fnf', this)"
 </footer>
 
 
-<!-- MORE INFO OVERLAY -->
+
+<!-- SONG INFO OVERLAY -->
 
 <div id="song-info-overlay" class="song-info-overlay">
 
-<div class="song-info-card">
+<div class="song-info-modal">
 
 <button class="close-info" onclick="closeSongInfo()">✕</button>
 
-<!-- LEFT SIDE -->
+
+<!-- LEFT COLUMN (ALBUM COVER) -->
+
+<div class="info-left">
 <img id="info-cover" class="song-info-cover">
+</div>
 
-<!-- RIGHT SIDE -->
-<div class="song-info-details">
 
-<h2 id="info-title" class="song-info-title"></h2>
+<!-- MIDDLE COLUMN -->
 
-<p id="info-artist" class="song-info-artist"></p>
+<div class="info-middle">
 
-<p id="info-album" class="song-info-album"></p>
+<div id="info-title" class="info-title"></div>
 
-<p id="info-genre"></p>
+<div id="info-artist" class="info-artist"></div>
 
-<p id="info-source"></p>
+<div class="info-meta">
+<div id="info-album"></div>
+<div id="info-year"></div>
+</div>
 
-<p id="info-rating"></p>
+<div class="difficulty-grid">
 
-<div class="song-info-difficulties">
-<div id="info-difficulty-content"></div>
+<div class="diff-box">
+Guitar
+<div id="info-guitar"></div>
+</div>
+
+<div class="diff-box">
+Pro Guitar
+<div id="info-proguitar"></div>
+</div>
+
+<div class="diff-box">
+Bass
+<div id="info-bass"></div>
+</div>
+
+<div class="diff-box">
+Pro Bass
+<div id="info-probass"></div>
+</div>
+
+<div class="diff-box">
+Keys
+<div id="info-keys"></div>
+</div>
+
+<div class="diff-box">
+Pro Keys
+<div id="info-prokeys"></div>
+</div>
+
+<div class="diff-box">
+Drums
+<div id="info-drums"></div>
+</div>
+
+<div class="diff-box">
+Vocals
+<div id="info-vocals"></div>
 </div>
 
 </div>
 
 </div>
 
+
+<!-- RIGHT COLUMN -->
+
+<div class="info-right">
+
+<div id="info-genre"></div>
+
+<div id="info-source"></div>
+
+<div id="info-rating"></div>
+
+<div id="info-extra"></div>
+
 </div>
+
+</div>
+
+</div>
+
 
 <script src="script.js"></script>
 
