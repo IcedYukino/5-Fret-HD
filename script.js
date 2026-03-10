@@ -213,6 +213,9 @@ function openSongInfo(song){
     document.getElementById("info-title").innerText = song.title;
     document.getElementById("info-artist").innerText = song.artist;
 
+    document.getElementById("info-album").innerText = song.album || "";
+    document.getElementById("info-year").innerText = song.year || "";
+
     document.getElementById("info-genre").innerHTML = `
         <span class="genre-tag ${song.genre.toLowerCase().replace(/[^a-z]/g,'')}">
             ${song.genre}
@@ -228,6 +231,16 @@ function openSongInfo(song){
             ${rating}
         </span>
     `;
+
+    document.getElementById("info-guitar").innerHTML = createDifficulty(song.difficulty?.guitar);
+    document.getElementById("info-bass").innerHTML = createDifficulty(song.difficulty?.bass);
+    document.getElementById("info-drums").innerHTML = createDifficulty(song.difficulty?.drums);
+    document.getElementById("info-vocals").innerHTML = createDifficulty(song.difficulty?.vocals);
+
+    document.getElementById("info-proguitar").innerHTML = createDifficulty(song.difficulty?.proguitar);
+    document.getElementById("info-probass").innerHTML = createDifficulty(song.difficulty?.probass);
+    document.getElementById("info-keys").innerHTML = createDifficulty(song.difficulty?.keys);
+    document.getElementById("info-prokeys").innerHTML = createDifficulty(song.difficulty?.prokeys);
 
     overlay.classList.add("open");
 
