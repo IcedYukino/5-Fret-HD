@@ -427,14 +427,14 @@ gap:10px;
 color:#aaa;
 }
 
-/* FIXED OVERLAY DIFFICULTIES */
+/* OVERLAY DIFFICULTY FIX */
 
 .song-info-modal .difficulty-grid{
 margin-top:18px;
 display:grid;
-grid-template-columns:1fr 1fr;
-gap:8px;
-align-items:start;
+grid-template-columns:max-content max-content;
+gap:8px 18px;
+justify-content:start;
 }
 
 .song-info-modal .diff-box{
@@ -444,7 +444,7 @@ border-radius:8px;
 display:flex;
 align-items:center;
 gap:10px;
-height:auto;
+width:max-content;
 }
 
 .song-info-modal .diff-icon{
