@@ -427,12 +427,12 @@ gap:10px;
 color:#aaa;
 }
 
-/* OVERLAY DIFFICULTY FIX */
+/* OVERLAY DIFFICULTIES */
 
 .song-info-modal .difficulty-grid{
 margin-top:18px;
 display:grid;
-grid-template-columns:max-content max-content;
+grid-template-columns:auto auto;
 gap:8px 18px;
 justify-content:start;
 }
@@ -444,7 +444,7 @@ border-radius:8px;
 display:flex;
 align-items:center;
 gap:10px;
-width:max-content;
+width:160px;
 }
 
 .song-info-modal .diff-icon{
@@ -463,13 +463,38 @@ height:9px;
 border-radius:2px;
 }
 
-/* RIGHT */
+/* RIGHT PANEL INFO */
 
 .info-right{
 display:flex;
 flex-direction:column;
 gap:12px;
 text-align:left;
+}
+
+.info-section{
+background:#222;
+padding:10px 14px;
+border-radius:8px;
+font-size:14px;
+}
+
+.info-label{
+font-size:11px;
+color:#aaa;
+letter-spacing:1px;
+margin-bottom:4px;
+}
+
+.info-value{
+font-weight:bold;
+}
+
+.info-icon{
+width:16px;
+height:16px;
+margin-right:6px;
+vertical-align:middle;
 }
 
 /* CLOSE BUTTON */
