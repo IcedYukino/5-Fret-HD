@@ -297,37 +297,37 @@ padding-top:10px;
 max-height:1000px;
 }
 
-/* Instruments */
+/* Instruments (dropdown only) */
 
 .instrument{
 display:grid;
-grid-template-columns:40px 1fr;
+grid-template-columns:34px 1fr;
 align-items:center;
-gap:14px;
+gap:12px;
 margin-bottom:10px;
 }
 
 .instrument-icon{
-width:32px;
-height:32px;
+width:26px;
+height:26px;
 object-fit:contain;
 display:block;
 opacity:.95;
 }
 
-/* Difficulty bars */
+/* Difficulty bars (dropdown only) */
 
 .diff-row{
 display:flex;
-gap:6px;
+gap:4px;
 align-items:center;
 }
 
 .diff{
-width:22px;
-height:12px;
+width:18px;
+height:10px;
 background:#333;
-border-radius:3px;
+border-radius:2px;
 }
 
 .diff.filled{
@@ -336,11 +336,11 @@ background:#ddd;
 
 .diff.red{
 background:#ff2d2d !important;
-box-shadow:0 0 8px #ff2d2d;
+box-shadow:0 0 6px #ff2d2d;
 }
 
 .no-part{
-font-size:13px;
+font-size:11px;
 color:#777;
 font-weight:bold;
 letter-spacing:1px;
@@ -450,16 +450,16 @@ gap:10px;
 color:#aaa;
 }
 
-/* DIFFICULTY GRID */
+/* OVERLAY DIFFICULTIES */
 
-.difficulty-grid{
+.song-info-modal .difficulty-grid{
 margin-top:18px;
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:14px;
 }
 
-.diff-box{
+.song-info-modal .diff-box{
 background:#222;
 padding:16px;
 border-radius:8px;
@@ -468,13 +468,21 @@ align-items:center;
 gap:16px;
 }
 
-/* Instrument icons in overlay */
-
-.diff-icon{
-width:30px;
-height:30px;
+.song-info-modal .diff-icon{
+width:32px;
+height:32px;
 object-fit:contain;
 opacity:.95;
+}
+
+.song-info-modal .diff-row{
+gap:6px;
+}
+
+.song-info-modal .diff{
+width:22px;
+height:12px;
+border-radius:3px;
 }
 
 /* RIGHT */
