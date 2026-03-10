@@ -286,5 +286,229 @@
       "drums": 0,
       "vocals": 0
     }
+    },
+    {
+    "title": "Move Along",
+    "artist": "All American Rejects",
+    "album": "Move Along",
+    "year": 2005,
+    "genre": "Emo",
+    "cover": "covers/allamericanrejectsmovealong.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 0,
+      "drums": 5,
+      "vocals": 2
+    }
+    },
+    {
+    "title": "My Iron Lung",
+    "artist": "Radiohead",
+    "album": "The Bends",
+    "year": 1994,
+    "genre": "Alternative",
+    "cover": "covers/radioheadthebends.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 2,
+      "bass": 0,
+      "drums": 1,
+      "vocals": 2
+    }
+    },
+    {
+    "title": "My Sharona",
+    "artist": "The Knack",
+    "album": "Get the Knack",
+    "year": 1979,
+    "genre": "Pop-Rock",
+    "cover": "covers/theknackgettheknack.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 5,
+      "bass": 2,
+      "drums": 2,
+      "vocals": 0
+    }
+    },
+    {
+    "title": "N.I.B.",
+    "artist": "Black Sabbath",
+    "album": "Black Sabbath",
+    "year": 1970,
+    "genre": "Metal",
+    "cover": "covers/blacksabbathblacksabbath.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 2,
+      "bass": 2,
+      "drums": 3,
+      "vocals": 2
+    }
+    },
+    {
+    "title": "Queen Bitch",
+    "artist": "David Bowie",
+    "album": "Hunky Dory",
+    "year": 1971,
+    "genre": "Glam",
+    "cover": "covers/davidbowiehunkydory.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": 0,
+      "drums": 0,
+      "vocals": 0
+    }
+    },
+    {
+    "title": "Ride the Lightning",
+    "artist": "Metallica",
+    "album": "Ride the Lightning",
+    "year": 1984,
+    "genre": "Metal",
+    "cover": "covers/metallicaridethelightning.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 6,
+      "bass": 6,
+      "drums": 6,
+      "vocals": 2
+    }
+    },
+    {
+    "title": "Rockaway Beach",
+    "artist": "Ramones",
+    "album": "Rocket to Russia",
+    "year": 1977,
+    "genre": "Punk",
+    "cover": "covers/ramonesrockettorussia.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 0,
+      "drums": 2,
+      "vocals": 0
+    }
+    },
+    {
+    "title": "Roxanne",
+    "artist": "The Police",
+    "album": "Outlandos d'Amour",
+    "year": 1978,
+    "genre": "Rock",
+    "cover": "covers/thepoliceoutlandosdamour.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 0,
+      "bass": 0,
+      "drums": 0,
+      "vocals": 3
+    }
+    },
+    {
+    "title": "Sick, Sick, Sick",
+    "artist": "Queens of the Stone Age",
+    "album": "Era Vulgaris",
+    "year": 2007,
+    "genre": "Alternative",
+    "cover": "covers/queensofthestoneageeravulgaris.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 3,
+      "bass": 3,
+      "drums": 5,
+      "vocals": 1
+    }
+    },
+    {
+    "title": "Song with a Mission",
+    "artist": "The Sounds",
+    "album": "Dying to Say This to You",
+    "year": 2006,
+    "genre": "New Wave",
+    "cover": "covers/queensofthestoneageeravulgaris.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 2,
+      "bass": 1,
+      "drums": 2,
+      "vocals": 2
+    }
+    },
+    {
+    "title": "Sweet Leaf",
+    "artist": "Black Sabbath",
+    "album": "Master of Reality",
+    "year": 1971,
+    "genre": "Metal",
+    "cover": "covers/blacksabbathmasterofreality.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 3,
+      "bass": 3,
+      "drums": 3,
+      "vocals": 3
+    }
+    },
+    {
+    "title": "Synchronicity II",
+    "artist": "The Police",
+    "album": "Synchronicity",
+    "year": 1983,
+    "genre": "Rock",
+    "cover": "covers/thepolicesynchronicity.png",
+    "category": "rb1dlc",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 2,
+      "bass": 1,
+      "drums": 3,
+      "vocals": 3
+    }
+    },
+    {
+    "title": "The Kill",
+    "artist": "30 Seconds to Mars",
+    "album": "A Beautiful Lie",
+    "year": 2005,
+    "genre": "Emo",
+    "cover": "covers/30secondstomarsabeautifullie.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 1,
+      "bass": 0,
+      "drums": 3,
+      "vocals": 3
+    }
+    },
+    {
+    "title": "War Pigs",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "genre": "Metal",
+    "cover": "covers/blacksabbathparanoid.png",
+    "category": "rb1dlc",
+    "rating": "SR",
+    "difficulty": {
+      "guitar": 3,
+      "bass": 3,
+      "drums": 4,
+      "vocals": 3
+    }
     }
     ]
