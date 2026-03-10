@@ -182,29 +182,24 @@ border-radius:6px;
 
 .cover-tag{
 position:absolute;
-bottom:8px;
-right:8px;
+bottom:6px;
+right:6px;
 
-background:#cfcfcf;
+background:#dcdcdc;
 color:#111;
 
-font-size:10px;
+font-size:11px;
 font-weight:bold;
 
-padding:4px 8px;
+padding:4px 10px;
 
 border-radius:4px;
 
-transform:rotate(-20deg);
+transform:rotate(-18deg);
 
-box-shadow:0 0 6px rgba(0,0,0,.6);
-}
+box-shadow:0 2px 6px rgba(0,0,0,.6);
 
-/* Default glow */
-
-.song:hover{
-transform:scale(1.05);
-box-shadow:0 0 15px #0aa3ff;
+pointer-events:none;
 }
 
 /* Guitar Hero glow */
@@ -220,11 +215,6 @@ box-shadow:0 0 18px #ff8c00;
 
 .song.rb1dlc:hover{
 box-shadow:0 0 18px #2b8fff;
-}
-
-.song img{
-width:100%;
-border-radius:6px;
 }
 
 .song h3{
@@ -265,17 +255,9 @@ font-weight:bold;
 font-size:13px;
 }
 
-.song-rating.NR{
-color:#999;
-}
-
-.song-rating.FF{
-color:#22c55e;
-}
-
-.song-rating.SR{
-color:#facc15;
-}
+.song-rating.NR{ color:#999; }
+.song-rating.FF{ color:#22c55e; }
+.song-rating.SR{ color:#facc15; }
 
 /* Genre tags */
 
@@ -289,76 +271,29 @@ font-weight:bold;
 
 /* Genre colors */
 
-/* Punk */
 .punk{background:#ff3b3b;color:#fff;box-shadow:0 0 8px #ff3b3b;}
-
-/* Southern Rock */
 .southernrock{background:#ff7a18;color:#fff;box-shadow:0 0 8px #ff7a18;}
-
-/* Metal */
 .metal{background:#8b0000;color:#fff;box-shadow:0 0 8px #8b0000;}
-
-/* Pop / Dance / Electronic */
 .popdanceelectronic{background:#00d4ff;color:#fff;box-shadow:0 0 8px #00d4ff;}
-
-/* New Wave */
 .newwave{background:#a855f7;color:#fff;box-shadow:0 0 8px #a855f7;}
-
-/* Other */
 .other{background:#555;color:#fff;box-shadow:0 0 6px #888;}
-
-/* Alternative */
 .alternative{background:#4f46e5;color:#fff;box-shadow:0 0 8px #4f46e5;}
-
-/* Blues */
 .blues{background:#1e40af;color:#fff;box-shadow:0 0 8px #1e40af;}
-
-/* Classic Rock */
 .classicrock{background:#ff9f1c;color:#fff;box-shadow:0 0 8px #ff9f1c;}
-
-/* Classical */
 .classical{background:#d8b4fe;color:#fff;box-shadow:0 0 8px #d8b4fe;}
-
-/* Country */
 .country{background:#facc15;color:#fff;box-shadow:0 0 8px #facc15;}
-
-/* Emo */
 .emo{background:#ec4899;color:#fff;box-shadow:0 0 8px #ec4899;}
-
-/* Glam */
 .glam{background:#ff66cc;color:#fff;box-shadow:0 0 8px #ff66cc;}
-
-/* Grunge */
 .grunge{background:#6b7280;color:#fff;box-shadow:0 0 8px #6b7280;}
-
-/* Hip Hop / Rap */
 .hiphoprap{background:#22c55e;color:#fff;box-shadow:0 0 8px #22c55e;}
-
-/* Indie Rock */
 .indierock{background:#6366f1;color:#fff;box-shadow:0 0 8px #6366f1;}
-
-/* J-Rock */
 .jrock{background:#ff4d4d;color:#fff;box-shadow:0 0 8px #ff4d4d;}
-
-/* Novelty */
 .novelty{background:#ffd166;color:#fff;box-shadow:0 0 8px #ffd166;}
-
-/* Nu Metal */
 .numetal{background:#4b5563;color:#fff;box-shadow:0 0 8px #4b5563;}
-
-/* Pop Rock */
 .poprock{background:#38bdf8;color:#fff;box-shadow:0 0 8px #38bdf8;}
-
-/* Progressive */
 .prog{background:#8b5cf6;color:#fff;box-shadow:0 0 8px #8b5cf6;}
-
-/* Reggae / Ska */
 .reggaeska{background:#16a34a;color:#fff;box-shadow:0 0 8px #16a34a;}
-
-/* Rock */
 .rock{background:#ef4444;color:#fff;box-shadow:0 0 8px #ef4444;}
-
-/* R&B / Soul / Funk */
 .rbsoulfunk{background:#db2777;color:#fff;box-shadow:0 0 8px #db2777;}
 
 /* Difficulty dropdown */
