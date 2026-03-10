@@ -497,6 +497,33 @@ margin-right:6px;
 vertical-align:middle;
 }
 
+/* INFO RIGHT PANEL */
+
+.info-section{
+background:#222;
+padding:10px 14px;
+border-radius:8px;
+font-size:14px;
+}
+
+.info-label{
+font-size:11px;
+color:#aaa;
+letter-spacing:1px;
+margin-bottom:4px;
+}
+
+.info-value{
+font-weight:bold;
+}
+
+.info-icon{
+width:16px;
+height:16px;
+margin-right:6px;
+vertical-align:middle;
+}
+
 /* CLOSE BUTTON */
 
 .close-info{
