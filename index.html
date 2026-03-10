@@ -53,32 +53,30 @@ Sort by Artist
 
 <div class="tabs">
 
-<button class="tab active" onclick="switchTab('all', this)">
-All
-</button>
+<button class="tab active" onclick="switchTab('all', this)">All</button>
 
 <button class="tab" onclick="switchTab('gh', this)">
-<img src="assets/gh.png" alt="Guitar Hero">
+<img src="assets/gh.png">
 </button>
 
 <button class="tab" onclick="switchTab('gh2', this)">
-<img src="assets/gh2.png" alt="Guitar Hero II">
+<img src="assets/gh2.png">
 </button>
 
 <button class="tab" onclick="switchTab('ghwor', this)">
-<img src="assets/ghwor.png" alt="Guitar Hero Warriors of Rock">
+<img src="assets/ghwor.png">
 </button>
 
 <button class="tab" onclick="switchTab('ghwordlc', this)">
-<img src="assets/ghwordlc.png" alt="Guitar Hero WoR DLC">
+<img src="assets/ghwordlc.png">
 </button>
 
 <button class="tab" onclick="switchTab('rb1dlc', this)">
-<img src="assets/rb1dlc.png" alt="Rock Band DLC">
+<img src="assets/rb1dlc.png">
 </button>
 
 <button class="tab" onclick="switchTab('fnf', this)">
-<img src="assets/fnf.png" alt="Fortnite Festival">
+<img src="assets/fnf.png">
 </button>
 
 </div>
@@ -100,14 +98,10 @@ All
 
 
 <footer>
-
 <p>This project is not affiliated with Harmonix.</p>
-
 </footer>
 
 
-
-<!-- SONG INFO OVERLAY -->
 
 <div id="song-info-overlay" class="song-info-overlay">
 
@@ -118,14 +112,10 @@ All
 <button class="close-info" onclick="closeSongInfo()">✕</button>
 
 
-<!-- LEFT COLUMN (ALBUM COVER) -->
-
 <div class="info-left">
 <img id="info-cover" class="song-info-cover">
 </div>
 
-
-<!-- MIDDLE COLUMN -->
 
 <div class="info-middle">
 
@@ -138,44 +128,53 @@ All
 <div id="info-year"></div>
 </div>
 
+
 <div class="difficulty-grid">
 
 <div class="diff-box">
+<img src="assets/guitar.png" class="diff-icon">
 Guitar
 <div id="info-guitar"></div>
 </div>
 
 <div class="diff-box">
+<img src="assets/guitar.png" class="diff-icon">
 Pro Guitar
 <div id="info-proguitar"></div>
 </div>
 
 <div class="diff-box">
+<img src="assets/bass.png" class="diff-icon">
 Bass
 <div id="info-bass"></div>
 </div>
 
 <div class="diff-box">
+<img src="assets/bass.png" class="diff-icon">
 Pro Bass
 <div id="info-probass"></div>
 </div>
 
 <div class="diff-box">
+<img src="assets/keys.png" class="diff-icon">
 Keys
 <div id="info-keys"></div>
 </div>
 
 <div class="diff-box">
+<img src="assets/keys.png" class="diff-icon">
 Pro Keys
 <div id="info-prokeys"></div>
 </div>
 
 <div class="diff-box">
+<img src="assets/drums.png" class="diff-icon">
 Drums
 <div id="info-drums"></div>
 </div>
 
 <div class="diff-box">
+<img src="assets/vocals.png" class="diff-icon">
 Vocals
 <div id="info-vocals"></div>
 </div>
@@ -185,8 +184,6 @@ Vocals
 </div>
 
 
-<!-- RIGHT COLUMN -->
-
 <div class="info-right">
 
 <div id="info-genre"></div>
@@ -195,14 +192,11 @@ Vocals
 
 <div id="info-rating"></div>
 
-<div id="info-extra"></div>
-
 </div>
 
 </div>
 
 </div>
-
 
 <script src="script.js"></script>
 
