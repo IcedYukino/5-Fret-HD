@@ -104,7 +104,7 @@ function displaySongs(songList){
 
 <h3>
 <a class="song-download"
-href="songfiles/${folder}/${file}"
+href="${file}"
 download
 onclick="event.stopPropagation()">
 ${song.title}
