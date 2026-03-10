@@ -207,13 +207,27 @@ function createDifficulty(level){
 function openSongInfo(song){
 
     const overlay = document.getElementById("song-info-overlay");
+    const rating = song.rating || "NR";
 
     document.getElementById("info-cover").src = song.cover;
     document.getElementById("info-title").innerText = song.title;
-    document.getElementById("info-artist").innerText = "Artist: " + song.artist;
-    document.getElementById("info-genre").innerText = "Genre: " + song.genre;
-    document.getElementById("info-source").innerText = "Source: " + song.category;
-    document.getElementById("info-rating").innerText = "Rating: " + (song.rating || "NR");
+    document.getElementById("info-artist").innerText = song.artist;
+
+    document.getElementById("info-genre").innerHTML = `
+        <span class="genre-tag ${song.genre.toLowerCase().replace(/[^a-z]/g,'')}">
+            ${song.genre}
+        </span>
+    `;
+
+    document.getElementById("info-source").innerHTML = `
+        ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
+    `;
+
+    document.getElementById("info-rating").innerHTML = `
+        <span class="song-rating ${rating}">
+            ${rating}
+        </span>
+    `;
 
     overlay.classList.add("open");
 
