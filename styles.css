@@ -165,9 +165,20 @@ transform:scale(1.05);
 box-shadow:0 0 15px #0aa3ff;
 }
 
+/* Cover image container */
+
 .cover-container{
 position:relative;
+width:100%;
 }
+
+.cover-container img{
+width:100%;
+display:block;
+border-radius:6px;
+}
+
+/* COVER tag */
 
 .cover-tag{
 position:absolute;
