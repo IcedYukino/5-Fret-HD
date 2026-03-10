@@ -92,7 +92,6 @@
     "year": 1980,
     "genre": "New Wave",
     "cover": "covers/thepretenderspretenders.png",
-    "file": "The Pretenders - Brass in Pocket.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "master": false,    
@@ -110,7 +109,6 @@
     "year": 1994,
     "genre": "Alternative",
     "cover": "covers/weezerweezerthebluealbum.png",
-    "file": "Weezer - Buddy Holly.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "difficulty": {
@@ -127,7 +125,6 @@
     "year": 1978,
     "genre": "Rock",
     "cover": "covers/thepoliceoutlandosdamour.png",
-    "file": "The Police - Can't Stand Losing You.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
@@ -144,7 +141,6 @@
     "year": 1976,
     "genre": "Punk",
     "cover": "covers/therunawaystherunaways.png",
-    "file": "The Runaways - Cherry Bomb.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "master": false,    
@@ -162,7 +158,6 @@
     "year": 2005,
     "genre": "Emo",
     "cover": "covers/allamericanrejectsmovealong.png",
-    "file": "All-American Rejects - Dirty Little Secret.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "difficulty": {
@@ -179,7 +174,6 @@
     "year": 1978,
     "genre": "Punk",
     "cover": "covers/buzzcockslovebites.png",
-    "file": "Buzzcocks - Ever Fallen in Love.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "master": false,    
@@ -197,7 +191,6 @@
     "year": 1969,
     "genre": "Southern Rock",
     "cover": "covers/creedenceclearwaterrevivalwillyandthepoorboys.png",
-    "file": "Creedence Clearwater Revival - Fortunate Son.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "master": false,    
@@ -215,7 +208,6 @@
     "year": 1977,
     "genre": "Glam",
     "cover": "covers/davidbowieheroes.png",
-    "file": "David Bowie - "Heroes.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "master": false,    
@@ -233,7 +225,6 @@
     "year": 1977,
     "genre": "Punk",
     "cover": "covers/theclashtheclash.png",
-    "file": "The Clash - I Fought the Law.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "difficulty": {
@@ -250,7 +241,6 @@
     "year": 2005,
     "genre": "Rock",
     "cover": "covers/wolfmotherwolfmother.png",
-    "file": "Wolfmother - Joker & the Thief.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "difficulty": {
@@ -267,7 +257,6 @@
     "year": 1981,
     "genre": "Classic Rock",
     "cover": "covers/foreigner4.png",
-    "file": "Foreigner - Juke Box Hero.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "master": false,    
@@ -285,7 +274,6 @@
     "year": 2005,
     "genre": "Alternative",
     "cover": "covers/queensofthestoneagelullabiestoparalyze.png",
-    "file": "Queens of the Stone Age - Little Sister.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
@@ -302,7 +290,6 @@
     "year": 1972,
     "genre": "Glam",
     "cover": "covers/davidbowietheriseandfallofziggystardustandthespidersfrommars.png",
-    "file": "David Bowie - Moonage Daydream.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
@@ -319,7 +306,6 @@
     "year": 2005,
     "genre": "Emo",
     "cover": "covers/allamericanrejectsmovealong.png",
-    "file": "All-American Rejects - Move Along.sng",
     "category": "rb1dlc",
     "rating": "FF",
     "difficulty": {
@@ -336,7 +322,6 @@
     "year": 1994,
     "genre": "Alternative",
     "cover": "covers/radioheadthebends.png",
-    "file": "Radiohead - My Iron Lung.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
@@ -353,7 +338,6 @@
     "year": 1979,
     "genre": "Pop-Rock",
     "cover": "covers/theknackgettheknack.png",
-    "file": "The Knack - My Sharona.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "master": false,      
@@ -371,7 +355,6 @@
     "year": 1970,
     "genre": "Metal",
     "cover": "covers/blacksabbathblacksabbath.png",
-    "file": "Black Sabbath - N.I.B..sng",
     "category": "rb1dlc",
     "rating": "SR",
     "master": false,      
@@ -406,6 +389,7 @@
     "year": 1984,
     "genre": "Metal",
     "cover": "covers/metallicaridethelightning.png",
+    "file": "https://drive.google.com/uc?export=download&id=1ohXVDKcUCiTYxWSuhlDdTF82oF4c_Aeg"
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
