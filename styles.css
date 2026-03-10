@@ -402,6 +402,7 @@ opacity:1;
 pointer-events:auto;
 }
 
+
 /* INFO CARD */
 
 .song-info-card{
@@ -410,12 +411,16 @@ border-radius:14px;
 width:900px;
 max-width:90%;
 padding:35px;
+
 display:grid;
 grid-template-columns:260px 1fr;
 gap:40px;
-align-items:center;
+
+align-items:start;
+
 box-shadow:0 0 40px rgba(0,0,0,.8);
 position:relative;
+
 transform:scale(.96);
 transition:transform .25s ease;
 }
@@ -423,6 +428,7 @@ transition:transform .25s ease;
 .song-info-overlay.open .song-info-card{
 transform:scale(1);
 }
+
 
 /* LEFT COVER */
 
@@ -432,10 +438,14 @@ border-radius:10px;
 box-shadow:0 0 20px rgba(0,0,0,.6);
 }
 
+
 /* RIGHT SIDE */
 
 .song-info-details{
 text-align:left;
+display:flex;
+flex-direction:column;
+gap:6px;
 }
 
 .song-info-title{
@@ -447,27 +457,29 @@ margin-bottom:10px;
 .song-info-artist{
 font-size:26px;
 color:#ddd;
-margin-bottom:6px;
+margin-bottom:10px;
 }
 
 .song-info-album{
 font-size:20px;
 color:#aaa;
-margin-bottom:25px;
+margin-bottom:20px;
 }
+
 
 /* DIFFICULTIES PANEL */
 
 .song-info-difficulties{
+margin-top:20px;
 background:#425a92;
-padding:30px;
+padding:22px;
 border-radius:10px;
-font-size:26px;
+font-size:22px;
 font-weight:bold;
 text-align:center;
 letter-spacing:2px;
-margin-top:20px;
 }
+
 
 /* CLOSE BUTTON */
 
