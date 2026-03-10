@@ -504,6 +504,7 @@
     "cover": "covers/blacksabbathparanoid.png",
     "category": "rb1dlc",
     "rating": "SR",
+    "coversong": true,
     "difficulty": {
       "guitar": 3,
       "bass": 3,
