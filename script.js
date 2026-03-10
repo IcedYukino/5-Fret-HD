@@ -90,8 +90,7 @@ function displaySongs(songList){
 
         const rating = song.rating || "NR";
 
-        const coverTag = song.coverSong ? `<div class="cover-tag">COVER</div>` : "";
-
+ const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
         card.innerHTML = `
 
 <div class="cover-container">
