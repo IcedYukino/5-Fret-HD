@@ -95,7 +95,6 @@ function displaySongs(songList){
 
         const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
 
-        const folder = song.downloadFolder || "Rock Band 1 DLC";
         const file = song.file || "";
 
         card.innerHTML = `
@@ -133,22 +132,22 @@ ${rating}
 <div class="difficulty-dropdown">
 
 <div class="instrument">
-<span>Guitar</span>
+<img class="instrument-icon" src="./assets/guitar.png">
 ${createDifficulty(song.difficulty?.guitar)}
 </div>
 
 <div class="instrument">
-<span>Bass</span>
+<img class="instrument-icon" src="./assets/bass.png">
 ${createDifficulty(song.difficulty?.bass)}
 </div>
 
 <div class="instrument">
-<span>Drums</span>
+<img class="instrument-icon" src="./assets/drums.png">
 ${createDifficulty(song.difficulty?.drums)}
 </div>
 
 <div class="instrument">
-<span>Vocals</span>
+<img class="instrument-icon" src="./assets/vocals.png">
 ${createDifficulty(song.difficulty?.vocals)}
 </div>
 
