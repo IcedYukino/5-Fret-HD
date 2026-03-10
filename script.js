@@ -102,7 +102,7 @@ ${song.title}
 
 ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
 
-<span class="genre-tag ${(song.genre || "").toLowerCase().replace(/[^a-z]/g,'')}>
+<span class="genre-tag">
 ${song.genre || ""}
 </span>
 
@@ -205,7 +205,7 @@ function openSongInfo(song){
     document.getElementById("info-year").innerText = song.year || "";
 
     document.getElementById("info-genre").innerHTML = `
-<span class="genre-tag ${(song.genre || "").toLowerCase().replace(/[^a-z]/g,'')}>
+<span class="genre-tag">
 ${song.genre || ""}
 </span>
 `;
