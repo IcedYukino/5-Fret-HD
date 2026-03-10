@@ -24,6 +24,9 @@ async function loadSongs(tab){
     }
     else if(tab === "rb1dlc"){
         files = ["rockbanddlc"];
+    }
+    else if(tab === "fnf"){
+        files = ["fortnitefestival"];    
     }    
     else if(tab === "all"){
 
