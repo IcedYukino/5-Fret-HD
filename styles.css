@@ -344,9 +344,19 @@ max-height:1000px;
 /* Instruments */
 
 .instrument{
-margin-bottom:10px;
-font-size:12px;
-text-align:center;
+display:grid;
+grid-template-columns:22px auto;
+align-items:center;
+gap:10px;
+margin-bottom:8px;
+}
+
+.instrument-icon{
+width:18px;
+height:18px;
+object-fit:contain;
+opacity:.9;
+filter:drop-shadow(0 0 3px rgba(255,255,255,.35));
 }
 
 .instrument span{
