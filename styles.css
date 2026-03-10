@@ -357,7 +357,6 @@ height:26px;
 object-fit:contain;
 display:block;
 opacity:.95;
-filter:drop-shadow(0 0 3px rgba(255,255,255,.4));
 }
 
 .instrument span{
