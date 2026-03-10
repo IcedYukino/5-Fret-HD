@@ -11,24 +11,12 @@ async function loadSongs(tab){
 
     let files = [];
 
-    if(tab === "gh"){
-        files = ["guitarhero"];
-    }
-    else if(tab === "gh2"){
-        files = ["guitarhero2"];
-    }
-    else if(tab === "ghwor"){
-        files = ["guitarherowarriorsofrock"];
-    }
-    else if(tab === "ghwordlc"){
-        files = ["guitarherowarriorsofrockdlc"];
-    }
-    else if(tab === "rb1dlc"){
-        files = ["rockbanddlc"];
-    }
-    else if(tab === "fnf"){
-        files = ["fortnitefestival"];    
-    }    
+    if(tab === "gh") files = ["guitarhero"];
+    else if(tab === "gh2") files = ["guitarhero2"];
+    else if(tab === "ghwor") files = ["guitarherowarriorsofrock"];
+    else if(tab === "ghwordlc") files = ["guitarherowarriorsofrockdlc"];
+    else if(tab === "rb1dlc") files = ["rockbanddlc"];
+    else if(tab === "fnf") files = ["fortnitefestival"];
     else if(tab === "all"){
 
         try{
@@ -55,13 +43,10 @@ async function loadSongs(tab){
             }
 
             const data = await res.json();
-
             loadedSongs.push(...data);
 
         }catch(err){
-
             console.warn(`Error loading ${file}.json`, err);
-
         }
 
     }
@@ -82,7 +67,6 @@ async function loadSongs(tab){
 function displaySongs(songList){
 
     const grid = document.getElementById("song-grid");
-
     if(!grid) return;
 
     grid.innerHTML = "";
@@ -90,12 +74,10 @@ function displaySongs(songList){
     songList.forEach(song => {
 
         const card = document.createElement("div");
-        card.className = `song ${song.category}`;
+        card.className = `song ${song.category || ""}`;
 
         const rating = song.rating || "NR";
-
         const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
-
         const file = song.file || "";
 
         card.innerHTML = `
@@ -120,8 +102,8 @@ ${song.title}
 
 ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
 
-<span class="genre-tag ${song.genre.toLowerCase().replace(/[^a-z]/g,'')}">
-${song.genre}
+<span class="genre-tag ${song.genre?.toLowerCase().replace(/[^a-z]/g,'')}">
+${song.genre || ""}
 </span>
 
 <span class="song-rating ${rating}">
@@ -210,16 +192,21 @@ function openSongInfo(song){
     const rating = song.rating || "NR";
 
     document.getElementById("info-cover").src = song.cover;
-    document.querySelector(".overlay-bg").style.backgroundImage = `url(${song.cover})`;
-    document.getElementById("info-title").innerText = song.title;
-    document.getElementById("info-artist").innerText = song.artist;
+
+    const bg = document.querySelector(".overlay-bg");
+    if(bg){
+        bg.style.backgroundImage = `url(${song.cover})`;
+    }
+
+    document.getElementById("info-title").innerText = song.title || "";
+    document.getElementById("info-artist").innerText = song.artist || "";
 
     document.getElementById("info-album").innerText = song.album || "";
     document.getElementById("info-year").innerText = song.year || "";
 
     document.getElementById("info-genre").innerHTML = `
-        <span class="genre-tag ${song.genre.toLowerCase().replace(/[^a-z]/g,'')}">
-            ${song.genre}
+        <span class="genre-tag ${song.genre?.toLowerCase().replace(/[^a-z]/g,'')}">
+            ${song.genre || ""}
         </span>
     `;
 
@@ -324,7 +311,6 @@ async function switchTab(tab, button){
 window.addEventListener("DOMContentLoaded", () => {
 
     const randomBtn = document.getElementById("randomSong");
-
     if(!randomBtn) return;
 
     randomBtn.addEventListener("click", () => {
