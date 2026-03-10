@@ -9,10 +9,10 @@
     "category": "fnf",
     "rating": "FF",
     "difficulty": {
-      "guitar": 0,
-      "bass": 0,
-      "drums": 0,
-      "vocals": 0
+      "guitar": 6,
+      "bass": 3,
+      "drums": 6,
+      "vocals": 5
   }
   }
 ]
