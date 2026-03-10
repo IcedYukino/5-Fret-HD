@@ -6,7 +6,6 @@
     "year": 1988,
     "genre": "Metal",
     "cover": "covers/metallicaandjusticeforall.png",
-    "file": "Metallica - ...And Justice for All.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
@@ -23,7 +22,6 @@
     "year": 2007,
     "genre": "Alternative",
     "cover": "covers/queensofthestoneageeravulgaris.png",
-    "file": "Queens of the Stone Age - 3's & 7's.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
@@ -40,7 +38,6 @@
     "year": 2005,
     "genre": "Emo",
     "cover": "covers/30secondstomarsabeautifullie.png",
-    "file": "30 Seconds to Mars - Attack.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
@@ -57,7 +54,6 @@
     "year": 1971,
     "genre": "Glam",
     "cover": "covers/trexelectricwarrior.png",
-    "file": "T.Rex - Band a Gong.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "master": false,
@@ -75,7 +71,6 @@
     "year": 1988,
     "genre": "Metal",
     "cover": "covers/metallicaandjusticeforall.png",
-    "file": "Metallica - Blackened.sng",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
@@ -389,7 +384,7 @@
     "year": 1984,
     "genre": "Metal",
     "cover": "covers/metallicaridethelightning.png",
-    "file": "https://drive.google.com/uc?export=download&id=1ohXVDKcUCiTYxWSuhlDdTF82oF4c_Aeg"
+    "file": "https://drive.google.com/uc?export=download&id=1ohXVDKcUCiTYxWSuhlDdTF82oF4c_Aeg",
     "category": "rb1dlc",
     "rating": "SR",
     "difficulty": {
