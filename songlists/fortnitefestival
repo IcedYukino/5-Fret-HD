@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Stellar Stellar",
+    "artist": "Hoshimachi Suisei",
+    "album": "Still Still Stellar",
+    "year": 2021,
+    "genre": "Pop/Dance/Electronic",
+    "cover": "covers/hoshimachisuiseistillstillstellar.png",
+    "category": "fnf",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 0,
+      "bass": 0,
+      "drums": 0,
+      "vocals": 0
+  }
+  }
+]
