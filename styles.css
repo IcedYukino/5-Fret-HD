@@ -189,8 +189,6 @@ overflow:hidden;
 border-radius:6px;
 }
 
-/* Album cover */
-
 .cover-container img{
 width:100%;
 display:block;
@@ -216,11 +214,6 @@ justify-content:center;
 transform:rotate(-45deg);
 box-shadow:0 3px 8px rgba(0,0,0,.6);
 pointer-events:none;
-}
-
-.cover-tag span{
-position:relative;
-left:-2px;
 }
 
 /* Guitar Hero glow */
@@ -328,7 +321,6 @@ opacity:.95;
 .diff-row{
 display:flex;
 gap:4px;
-justify-content:center;
 align-items:center;
 }
 
@@ -403,7 +395,7 @@ opacity:1;
 pointer-events:auto;
 }
 
-/* MODAL LAYOUT */
+/* MODAL */
 
 .song-info-modal{
 background:#1a1a1a;
@@ -411,18 +403,23 @@ border-radius:14px;
 width:1100px;
 max-width:95%;
 padding:30px;
-
 display:grid;
 grid-template-columns:260px 1fr 260px;
 gap:30px;
-
 align-items:start;
-
 box-shadow:0 0 40px rgba(0,0,0,.8);
 position:relative;
+transform:translateY(60px) scale(.95);
+opacity:0;
+transition:all .35s ease;
 }
 
-/* LEFT COLUMN */
+.song-info-overlay.open .song-info-modal{
+transform:translateY(0) scale(1);
+opacity:1;
+}
+
+/* LEFT */
 
 .song-info-cover{
 width:100%;
@@ -430,7 +427,7 @@ border-radius:10px;
 box-shadow:0 0 20px rgba(0,0,0,.6);
 }
 
-/* MIDDLE COLUMN */
+/* MIDDLE */
 
 .info-middle{
 text-align:left;
@@ -468,11 +465,21 @@ gap:10px;
 background:#222;
 padding:10px;
 border-radius:6px;
-font-size:14px;
-text-align:center;
+display:flex;
+align-items:center;
+gap:10px;
 }
 
-/* RIGHT COLUMN */
+/* ICON LEFT OF DIFFICULTY */
+
+.diff-icon{
+width:20px;
+height:20px;
+object-fit:contain;
+opacity:.9;
+}
+
+/* RIGHT */
 
 .info-right{
 display:flex;
@@ -494,6 +501,8 @@ font-size:22px;
 cursor:pointer;
 }
 
+/* BACKGROUND BLUR */
+
 .overlay-bg{
 position:absolute;
 top:0;
@@ -505,84 +514,6 @@ background-position:center;
 filter:blur(40px) brightness(.35);
 transform:scale(1.2);
 z-index:-1;
-}
-
-.song-info-modal{
-transform:translateY(60px) scale(.95);
-opacity:0;
-transition:all .35s ease;
-}
-
-.song-info-overlay.open .song-info-modal{
-transform:translateY(0) scale(1);
-opacity:1;
-}
-
-.song-info-modal{
-background:#1a1a1a;
-border-radius:14px;
-width:1100px;
-max-width:95%;
-padding:30px;
-display:grid;
-grid-template-columns:260px 1fr 260px;
-gap:30px;
-align-items:start;
-box-shadow:0 0 40px rgba(0,0,0,.8);
-position:relative;
-}
-
-.info-middle{
-text-align:left;
-display:flex;
-flex-direction:column;
-gap:10px;
-}
-
-.info-title{
-font-size:36px;
-font-weight:bold;
-}
-
-.info-artist{
-font-size:24px;
-color:#ddd;
-}
-
-.info-meta{
-display:flex;
-gap:10px;
-color:#aaa;
-}
-
-.difficulty-grid{
-margin-top:15px;
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:10px;
-}
-
-.diff-box{
-background:#222;
-padding:10px;
-border-radius:6px;
-font-size:14px;
-text-align:center;
-}
-
-.diff-icon{
-width:18px;
-height:18px;
-margin-right:6px;
-vertical-align:middle;
-filter:drop-shadow(0 0 4px rgba(255,255,255,.4));
-}
-
-.info-right{
-display:flex;
-flex-direction:column;
-gap:12px;
-text-align:left;
 }
 
 /* Footer */
