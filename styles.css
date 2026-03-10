@@ -259,7 +259,6 @@ height:18px;
 object-fit:contain;
 justify-self:end;
 opacity:.95;
-filter:drop-shadow(0 0 3px rgba(255,255,255,.35));
 }
 
 /* Song rating */
@@ -302,15 +301,15 @@ max-height:1000px;
 
 .instrument{
 display:grid;
-grid-template-columns:34px 1fr;
+grid-template-columns:40px 1fr;
 align-items:center;
-gap:12px;
+gap:14px;
 margin-bottom:10px;
 }
 
 .instrument-icon{
-width:26px;
-height:26px;
+width:32px;
+height:32px;
 object-fit:contain;
 display:block;
 opacity:.95;
@@ -320,15 +319,15 @@ opacity:.95;
 
 .diff-row{
 display:flex;
-gap:4px;
+gap:6px;
 align-items:center;
 }
 
 .diff{
-width:18px;
-height:10px;
+width:22px;
+height:12px;
 background:#333;
-border-radius:2px;
+border-radius:3px;
 }
 
 .diff.filled{
@@ -337,15 +336,14 @@ background:#ddd;
 
 .diff.red{
 background:#ff2d2d !important;
-box-shadow:0 0 6px #ff2d2d;
+box-shadow:0 0 8px #ff2d2d;
 }
 
 .no-part{
-font-size:11px;
+font-size:13px;
 color:#777;
 font-weight:bold;
 letter-spacing:1px;
-margin-top:3px;
 }
 
 /* MORE INFO BUTTON */
@@ -455,28 +453,28 @@ color:#aaa;
 /* DIFFICULTY GRID */
 
 .difficulty-grid{
-margin-top:15px;
+margin-top:18px;
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:10px;
+gap:14px;
 }
 
 .diff-box{
 background:#222;
-padding:10px;
-border-radius:6px;
+padding:16px;
+border-radius:8px;
 display:flex;
 align-items:center;
-gap:10px;
+gap:16px;
 }
 
-/* ICON LEFT OF DIFFICULTY */
+/* Instrument icons in overlay */
 
 .diff-icon{
-width:20px;
-height:20px;
+width:30px;
+height:30px;
 object-fit:contain;
-opacity:.9;
+opacity:.95;
 }
 
 /* RIGHT */
@@ -501,7 +499,7 @@ font-size:22px;
 cursor:pointer;
 }
 
-/* BACKGROUND BLUR */
+/* Background blur */
 
 .overlay-bg{
 position:absolute;
