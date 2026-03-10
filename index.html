@@ -135,11 +135,17 @@ onclick="switchTab('fnf', this)"
 
 <button class="close-info" onclick="closeSongInfo()">✕</button>
 
-<img id="info-cover" class="info-cover">
+<!-- LEFT SIDE -->
+<img id="info-cover" class="song-info-cover">
 
-<h2 id="info-title"></h2>
+<!-- RIGHT SIDE -->
+<div class="song-info-details">
 
-<p id="info-artist"></p>
+<h2 id="info-title" class="song-info-title"></h2>
+
+<p id="info-artist" class="song-info-artist"></p>
+
+<p id="info-album" class="song-info-album"></p>
 
 <p id="info-genre"></p>
 
@@ -147,10 +153,15 @@ onclick="switchTab('fnf', this)"
 
 <p id="info-rating"></p>
 
+<div class="song-info-difficulties">
+<div id="info-difficulty-content"></div>
 </div>
 
 </div>
 
+</div>
+
+</div>
 
 <script src="script.js"></script>
 
