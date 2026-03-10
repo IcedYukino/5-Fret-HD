@@ -86,9 +86,7 @@ font-weight:bold;
 transition:.2s;
 }
 
-.header button:hover{
-background:#333;
-}
+.header button:hover
 
 /* Tabs */
 
@@ -108,9 +106,7 @@ font-weight:bold;
 transition:.2s;
 }
 
-.tab:hover{
-background:#333;
-}
+.tab:hover
 
 .tab.active{
 background:#0aa3ff;
@@ -290,33 +286,6 @@ font-size:11px;
 font-weight:bold;
 }
 
-/* Genre colors */
-
-.punk{background:#ff3b3b;color:#fff;box-shadow:0 0 8px #ff3b3b;}
-.southernrock{background:#ff7a18;color:#fff;box-shadow:0 0 8px #ff7a18;}
-.metal{background:#8b0000;color:#fff;box-shadow:0 0 8px #8b0000;}
-.popdanceelectronic{background:#00d4ff;color:#fff;box-shadow:0 0 8px #00d4ff;}
-.newwave{background:#a855f7;color:#fff;box-shadow:0 0 8px #a855f7;}
-.other{background:#555;color:#fff;box-shadow:0 0 6px #888;}
-.alternative{background:#4f46e5;color:#fff;box-shadow:0 0 8px #4f46e5;}
-.blues{background:#1e40af;color:#fff;box-shadow:0 0 8px #1e40af;}
-.classicrock{background:#ff9f1c;color:#fff;box-shadow:0 0 8px #ff9f1c;}
-.classical{background:#d8b4fe;color:#fff;box-shadow:0 0 8px #d8b4fe;}
-.country{background:#facc15;color:#fff;box-shadow:0 0 8px #facc15;}
-.emo{background:#ec4899;color:#fff;box-shadow:0 0 8px #ec4899;}
-.glam{background:#ff66cc;color:#fff;box-shadow:0 0 8px #ff66cc;}
-.grunge{background:#6b7280;color:#fff;box-shadow:0 0 8px #6b7280;}
-.hiphoprap{background:#22c55e;color:#fff;box-shadow:0 0 8px #22c55e;}
-.indierock{background:#6366f1;color:#fff;box-shadow:0 0 8px #6366f1;}
-.jrock{background:#ff4d4d;color:#fff;box-shadow:0 0 8px #ff4d4d;}
-.novelty{background:#ffd166;color:#fff;box-shadow:0 0 8px #ffd166;}
-.numetal{background:#4b5563;color:#fff;box-shadow:0 0 8px #4b5563;}
-.poprock{background:#38bdf8;color:#fff;box-shadow:0 0 8px #38bdf8;}
-.prog{background:#8b5cf6;color:#fff;box-shadow:0 0 8px #8b5cf6;}
-.reggaeska{background:#16a34a;color:#fff;box-shadow:0 0 8px #16a34a;}
-.rock{background:#ef4444;color:#fff;box-shadow:0 0 8px #ef4444;}
-.rbsoulfunk{background:#db2777;color:#fff;box-shadow:0 0 8px #db2777;}
-
 /* Difficulty dropdown */
 
 .difficulty-dropdown{
@@ -330,24 +299,6 @@ padding-top:10px;
 
 .difficulty-dropdown.open{
 max-height:1000px;
-}
-
-/* Instruments */
-
-.instrument{
-display:grid;
-grid-template-columns:34px 1fr;
-align-items:center;
-gap:12px;
-margin-bottom:10px;
-}
-
-.instrument-icon{
-width:26px;
-height:26px;
-object-fit:contain;
-display:block;
-opacity:.95;
 }
 
 /* Difficulty bars */
@@ -401,11 +352,9 @@ font-size:12px;
 cursor:pointer;
 }
 
-.more-info-btn:hover{
-background:#0884cc;
-}
+.more-info-btn:hover
 
-/* INFO OVERLAY */
+/* OVERLAY */
 
 .song-info-overlay{
 position:fixed;
@@ -428,22 +377,67 @@ opacity:1;
 pointer-events:auto;
 }
 
-/* INFO CARD */
+/* INFO CARD LAYOUT */
 
 .song-info-card{
 background:#1a1a1a;
-padding:30px;
-border-radius:12px;
-width:420px;
-text-align:center;
+border-radius:14px;
+width:900px;
+max-width:90%;
+padding:35px;
+
+display:grid;
+grid-template-columns:260px 1fr;
+gap:40px;
+
+align-items:start;
+
+box-shadow:0 0 40px rgba(0,0,0,.8);
 position:relative;
-box-shadow:0 0 30px rgba(0,0,0,.7);
 }
 
-.song-info-card img{
-width:200px;
-border-radius:8px;
-margin-bottom:15px;
+/* LEFT COVER */
+
+.song-info-cover{
+width:100%;
+border-radius:10px;
+box-shadow:0 0 20px rgba(0,0,0,.6);
+}
+
+/* RIGHT DETAILS */
+
+.song-info-details{
+text-align:left;
+}
+
+.song-info-title{
+font-size:42px;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.song-info-artist{
+font-size:28px;
+color:#ddd;
+margin-bottom:6px;
+}
+
+.song-info-album{
+font-size:22px;
+color:#aaa;
+margin-bottom:30px;
+}
+
+/* DIFFICULTIES PANEL */
+
+.song-info-difficulties{
+background:#425a92;
+padding:30px;
+border-radius:10px;
+font-size:28px;
+font-weight:bold;
+text-align:center;
+letter-spacing:2px;
 }
 
 /* CLOSE BUTTON */
@@ -451,11 +445,11 @@ margin-bottom:15px;
 .close-info{
 position:absolute;
 top:12px;
-right:14px;
+right:16px;
 background:none;
 border:none;
 color:white;
-font-size:20px;
+font-size:22px;
 cursor:pointer;
 }
 
