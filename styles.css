@@ -278,6 +278,17 @@ width:22px;
 height:22px;
 }
 
+.source-row{
+display:flex;
+align-items:center;
+gap:8px;
+}
+
+.source-row .source-icon{
+width:20px;
+height:20px;
+}
+
 .harmonix-charter{
 color:#0078ff;
 font-weight:600;
