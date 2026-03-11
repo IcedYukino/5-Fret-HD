@@ -236,8 +236,8 @@ const sourceText = sourceNames[song.category] || "";
 
 document.getElementById("info-source").innerHTML = `
 <div class="source-display">
-<span class="source-text">${sourceText}</span>
 ${song.category ? `<img class="source-icon overlay-source-icon" src="./assets/${song.category}.png">` : ""}
+<span class="source-text">${sourceText}</span>
 </div>
 `;
 
