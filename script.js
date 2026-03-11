@@ -2,45 +2,6 @@ let songs = [];
 let currentTab = "all";
 let sortDirection = 1;
 
-function getGenreClass(genre){
-if(!genre) return "";
-
-const map = {
-"Alternative":"alternative",
-"Blues":"blues",
-"Classic Rock":"classic-rock",
-"Classical":"classical",
-"Country":"country",
-"Emo":"emo",
-"Glam":"glam",
-"Grunge":"grunge",
-"Hip-Hop/Rap":"hiphop-rap",
-"Indie Rock":"indie-rock",
-"J-Rock":"j-rock",
-"Metal":"metal",
-"New Wave":"new-wave",
-"Novelty":"novelty",
-"Nu-Metal":"nu-metal",
-"Other":"other",
-"Pop-Rock":"pop-rock",
-"Pop/Dance/Electronic":"pop-dance-electronic",
-"Prog":"prog",
-"Punk":"punk",
-"R&B/Soul/Funk":"rnb-soul-funk",
-"Reggae/Ska":"reggae-ska",
-"Rock":"rock",
-"Southern Rock":"southern-rock"
-};
-
-return map[genre] || genre.toLowerCase().replace(/[^a-z0-9]+/g,"-");
-}
-
-function getRatingText(rating){
-if(rating === "FF") return "Family Friendly";
-if(rating === "SR") return "Supervision Recommended";
-return rating || "NR";
-}
-
 window.addEventListener("DOMContentLoaded", async () => {
 await loadSongs("all");
 setupOverlayClose();
@@ -116,10 +77,8 @@ const card = document.createElement("div");
 card.className = `song ${song.category || ""}`;
 
 const rating = song.rating || "NR";
-const ratingText = getRatingText(rating);
 const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
 const file = song.file || "";
-const genreClass = getGenreClass(song.genre);
 
 card.innerHTML = `
 
@@ -143,12 +102,12 @@ ${song.title}
 
 ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
 
-<span class="genre-tag ${genreClass}">
+<span class="genre-tag ${song.genre}">
 ${song.genre || ""}
 </span>
 
 <span class="song-rating ${rating}">
-${ratingText}
+${rating}
 </span>
 
 </div>
@@ -231,8 +190,10 @@ function openSongInfo(song){
 
 const overlay = document.getElementById("song-info-overlay");
 const rating = song.rating || "NR";
-const ratingText = getRatingText(rating);
-const genreClass = getGenreClass(song.genre);
+
+let ratingText = rating;
+if(rating === "FF") ratingText = "Family Friendly";
+if(rating === "SR") ratingText = "Supervision Recommended";
 
 document.getElementById("info-cover").src = song.cover;
 
@@ -248,7 +209,7 @@ document.getElementById("info-album").innerText = song.album || "";
 document.getElementById("info-year").innerText = song.year || "";
 
 document.getElementById("info-genre").innerHTML = `
-<span class="genre-tag ${genreClass}">
+<span class="genre-tag ${song.genre}">
 ${song.genre || ""}
 </span>
 `;
