@@ -2,15 +2,56 @@ let songs = [];
 let currentTab = "all";
 let sortDirection = 1;
 
+window.addEventListener("DOMContentLoaded", async () => {
+    await loadSongs("all");
+    setupOverlayClose();
+});
+
 function genreClass(genre){
+
 if(!genre) return "";
-return genre.toLowerCase().replace(/[^a-z0-9]+/g,"-");
+
+const map = {
+"Alternative":"alternative",
+"Classic Rock":"classicrock",
+"Country":"country",
+"Dance":"dance",
+"Electronic":"electronic",
+"Funk":"funk",
+"Grunge":"grunge",
+"Indie Rock":"indierock",
+"Metal":"metal",
+"New Wave":"newwave",
+"Pop":"pop",
+"Punk":"punk",
+"R&B":"rnb",
+"Rap":"rap",
+"Rock":"rock"
+};
+
+return map[genre] || "";
+
 }
 
-window.addEventListener("DOMContentLoaded", async () => {
-await loadSongs("all");
-setupOverlayClose();
-});
+function formatReleaseDate(date){
+
+if(!date) return "";
+
+const parts = date.split("-");
+if(parts.length !== 3) return date;
+
+const months = [
+"January","February","March","April","May","June",
+"July","August","September","October","November","December"
+];
+
+const month = months[parseInt(parts[0]) - 1];
+const day = parseInt(parts[1]);
+const year = parts[2];
+
+return month + " " + day + ", " + year;
+
+}
 
 async function loadSongs(tab){
 
@@ -84,10 +125,8 @@ card.className = `song ${song.category || ""}`;
 const rating = song.rating || "NR";
 const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
 const file = song.file || "";
-const genreClassName = genreClass(song.genre);
 
 card.innerHTML = `
-
 <div class="cover-container">
 <img src="${song.cover}">
 ${coverTag}
@@ -108,7 +147,7 @@ ${song.title}
 
 ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
 
-<span class="genre-tag ${genreClassName}">
+<span class="genre-tag ${genreClass(song.genre)}">
 ${song.genre || ""}
 </span>
 
@@ -195,14 +234,7 @@ return `<div class="diff-row">${bars}</div>`;
 function openSongInfo(song){
 
 const overlay = document.getElementById("song-info-overlay");
-
 const rating = song.rating || "NR";
-
-let ratingText = rating;
-if(rating === "FF") ratingText = "Family Friendly";
-if(rating === "SR") ratingText = "Supervision Recommended";
-
-const genreClassName = genreClass(song.genre);
 
 document.getElementById("info-cover").src = song.cover;
 
@@ -216,45 +248,40 @@ document.getElementById("info-artist").innerText = song.artist || "";
 
 document.getElementById("info-album").innerText = song.album || "";
 document.getElementById("info-year").innerText = song.year || "";
+document.getElementById("info-release").innerText = formatReleaseDate(song.release);
 
-document.getElementById("info-genre").innerHTML = `
-<span class="genre-tag ${genreClassName}">
-${song.genre || ""}
-</span>
-`;
+document.getElementById("info-genre").innerHTML =
+`<span class="genre-tag ${genreClass(song.genre)}">${song.genre || ""}</span>`;
 
 const sourceNames = {
-gh: "Guitar Hero",
-gh2: "Guitar Hero II",
-ghwor: "Guitar Hero: Warriors of Rock",
-ghwordlc: "Guitar Hero: Warriors of Rock DLC",
-rb1dlc: "Rock Band DLC",
-fnf: "Fortnite Festival"
+guitarhero:"Guitar Hero",
+guitarhero2:"Guitar Hero II",
+guitarherowarriorsofrock:"Guitar Hero: Warriors of Rock",
+guitarherowarriorsofrockdlc:"Guitar Hero: Warriors of Rock DLC",
+rockbanddlc:"Rock Band 1 DLC",
+fortnitefestival:"Fortnite Festival"
 };
 
-const sourceText = sourceNames[song.category] || "";
+const sourceName = sourceNames[song.category] || "";
 
-document.getElementById("info-source").innerHTML = `
-<div class="source-display">
-${song.category ? `<img class="source-icon overlay-source-icon" src="./assets/${song.category}.png">` : ""}
-<span class="source-text">${sourceText}</span>
-</div>
-`;
+document.getElementById("info-source").innerHTML =
+`${sourceName} ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}`;
 
-const harmonixSources = ["gh","gh2","rb1dlc","fnf"];
-const charter = harmonixSources.includes(song.category) ? "Harmonix" : (song.charter || "");
+let ratingText = rating;
 
-document.getElementById("info-charter").innerHTML = `
-<span class="${charter === "Harmonix" ? "harmonix-charter" : ""}">
-${charter}
-</span>
-`;
+if(rating === "FF") ratingText = "Family Friendly";
+if(rating === "SR") ratingText = "Supervision Recommended";
 
-document.getElementById("info-rating").innerHTML = `
-<span class="song-rating ${rating}">
-${ratingText}
-</span>
-`;
+document.getElementById("info-rating").innerHTML =
+`<span class="song-rating ${rating}">${ratingText}</span>`;
+
+let charter = song.charter || "";
+
+if(["guitarhero","guitarhero2","rockbanddlc","fortnitefestival"].includes(song.category)){
+charter = `<span style="color:#0078ff">Harmonix</span>`;
+}
+
+document.getElementById("info-charter").innerHTML = charter;
 
 document.getElementById("info-guitar").innerHTML = createDifficulty(song.difficulty?.guitar);
 document.getElementById("info-bass").innerHTML = createDifficulty(song.difficulty?.bass);
