@@ -202,6 +202,10 @@ let ratingText = rating;
 if(rating === "FF") ratingText = "Family Friendly";
 if(rating === "SR") ratingText = "Supervision Recommended";
 
+let sourceText = source;
+if(source === "fnf") sourceText = "Fortnite Festival";
+if(source === "rb1dlc") sourceText = "Rock Band DLC";
+
 const genreClassName = genreClass(song.genre);
 
 document.getElementById("info-cover").src = song.cover;
