@@ -86,10 +86,6 @@ const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : 
 const file = song.file || "";
 const genreClassName = genreClass(song.genre);
 
-const harmonixTag = ["gh","gh2","rb1dlc","fnf"].includes(song.category)
-? `<span class="charter harmonix">Harmonix</span>`
-: "";
-
 card.innerHTML = `
 
 <div class="cover-container">
@@ -111,8 +107,6 @@ ${song.title}
 <div class="genre-row">
 
 ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
-
-${harmonixTag}
 
 <span class="genre-tag ${genreClassName}">
 ${song.genre || ""}
@@ -228,8 +222,12 @@ ${song.genre || ""}
 </span>
 `;
 
+const harmonixSources = ["gh","gh2","rb1dlc","fnf"];
+const charter = harmonixSources.includes(song.category) ? "Harmonix" : (song.charter || "");
+
 document.getElementById("info-source").innerHTML = `
 ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
+${charter ? `<div class="charter ${charter === "Harmonix" ? "harmonix" : ""}">${charter}</div>` : ""}
 `;
 
 document.getElementById("info-rating").innerHTML = `
