@@ -405,6 +405,16 @@ opacity:1;
 pointer-events:auto;
 }
 
+.charter{
+margin-top:6px;
+font-weight:600;
+font-size:14px;
+}
+
+.charter.harmonix{
+color:#0078ff;
+}
+
 /* MODAL */
 
 .song-info-modal{
