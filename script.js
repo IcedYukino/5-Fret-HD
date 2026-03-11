@@ -201,7 +201,7 @@ const rating = song.rating || "NR";
 let ratingText = rating;
 if(rating === "FF") ratingText = "Family Friendly";
 if(rating === "SR") ratingText = "Supervision Recommended";
-  
+
 const genreClassName = genreClass(song.genre);
 
 document.getElementById("info-cover").src = song.cover;
@@ -223,8 +223,22 @@ ${song.genre || ""}
 </span>
 `;
 
+const sourceNames = {
+gh: "Guitar Hero",
+gh2: "Guitar Hero II",
+ghwor: "Guitar Hero: Warriors of Rock",
+ghwordlc: "Guitar Hero: Warriors of Rock DLC",
+rb1dlc: "Rock Band DLC",
+fnf: "Fortnite Festival"
+};
+
+const sourceText = sourceNames[song.category] || "";
+
 document.getElementById("info-source").innerHTML = `
-${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
+<div class="source-display">
+<span class="source-text">${sourceText}</span>
+${song.category ? `<img class="source-icon overlay-source-icon" src="./assets/${song.category}.png">` : ""}
+</div>
 `;
 
 const harmonixSources = ["gh","gh2","rb1dlc","fnf"];
