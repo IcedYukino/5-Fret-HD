@@ -331,7 +331,7 @@ color:white;
 .genre-tag.indie-rock{background:#3498db;}
 .genre-tag.classic-rock{background:#e67e22;}
 .genre-tag.punk{background:#f1c40f;}
-.genre-tag.new-wave{background:#2ecc71;}
+.genre-tag.newwave{background:#2ecc71;}
 .genre-tag.grunge{background:#34495e;}
 .genre-tag.emo{background:#ff66cc;}
 .genre-tag.country{background:#d4ac0d;}
@@ -340,9 +340,9 @@ color:white;
 .genre-tag.prog{background:#8e44ad;}
 .genre-tag.glam{background:#ff1493;}
 .genre-tag.reggae-ska{background:#27ae60;}
-.genre-tag.hip-hop-rap{background:#2c3e50;}
-.genre-tag.rnb-soul-funk{background:#16a085;}
-.genre-tag.pop-rock{background:#ff7675;}
+.genre-tag.hiphoprap{background:#2c3e50;}
+.genre-tag.r&bsoulfunk{background:#16a085;}
+.genre-tag.poprock{background:#ff7675;}
 .genre-tag.popdanceelectronic{background:#00cec9;}
 .genre-tag.southern-rock{background:#d35400;}
 .genre-tag.nu-metal{background:#6c5ce7;}
