@@ -245,7 +245,7 @@ function openSongInfo(song){
     const sourceName = sourceNames[song.category] || "";
 
     document.getElementById("info-source").innerHTML =
-        `${sourceName} ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}`;
+`${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""} ${sourceName}`;
 
     let ratingText = rating;
 
