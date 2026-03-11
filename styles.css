@@ -267,6 +267,22 @@ justify-self:end;
 opacity:.95;
 }
 
+.source-display{
+display:flex;
+align-items:center;
+gap:8px;
+}
+
+.overlay-source-icon{
+width:22px;
+height:22px;
+}
+
+.harmonix-charter{
+color:#0078ff;
+font-weight:600;
+}
+
 /* Song rating */
 
 .song-rating{
