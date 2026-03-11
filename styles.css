@@ -231,6 +231,12 @@ box-shadow:0 0 18px #ff8c00;
 box-shadow:0 0 18px #2b8fff;
 }
 
+/* Fortnite Festival glow */
+
+.song.fnf:hover{
+box-shadow:0 0 18px #ff2bf3;
+}
+
 .song h3{
 margin:10px 0 5px;
 font-size:16px;
