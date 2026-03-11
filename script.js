@@ -2,6 +2,11 @@ let songs = [];
 let currentTab = "all";
 let sortDirection = 1;
 
+function genreClass(genre){
+if(!genre) return "";
+return genre.toLowerCase().replace(/[^a-z0-9]+/g,"-");
+}
+
 window.addEventListener("DOMContentLoaded", async () => {
 await loadSongs("all");
 setupOverlayClose();
@@ -79,6 +84,7 @@ card.className = `song ${song.category || ""}`;
 const rating = song.rating || "NR";
 const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
 const file = song.file || "";
+const genreClassName = genreClass(song.genre);
 
 card.innerHTML = `
 
@@ -102,7 +108,7 @@ ${song.title}
 
 ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
 
-<span class="genre-tag ${song.genre}">
+<span class="genre-tag ${genreClassName}">
 ${song.genre || ""}
 </span>
 
@@ -195,6 +201,8 @@ let ratingText = rating;
 if(rating === "FF") ratingText = "Family Friendly";
 if(rating === "SR") ratingText = "Supervision Recommended";
 
+const genreClassName = genreClass(song.genre);
+
 document.getElementById("info-cover").src = song.cover;
 
 const bg = document.querySelector(".overlay-bg");
@@ -209,7 +217,7 @@ document.getElementById("info-album").innerText = song.album || "";
 document.getElementById("info-year").innerText = song.year || "";
 
 document.getElementById("info-genre").innerHTML = `
-<span class="genre-tag ${song.genre}">
+<span class="genre-tag ${genreClassName}">
 ${song.genre || ""}
 </span>
 `;
