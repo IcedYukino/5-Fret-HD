@@ -1,5 +1,22 @@
 [
   {
+    "title": "SnowMix♪ (ft. Hatsune Miku)",
+    "artist": "Marasy",
+    "album": "Winter Sky Fantasia",
+    "year": 2022,
+    "genre": "Pop/Dance/Electronic",
+    "cover": "covers/marasywinterskyfantasia.png",
+    "category": "fnf",
+    "release": "12-19-2025",
+    "rating": "FF",
+    "difficulty": {
+      "guitar": 6,
+      "bass": 4,
+      "drums": 5,
+      "vocals": 4
+  }
+  },
+  {
     "title": "Stellar Stellar",
     "artist": "Hoshimachi Suisei",
     "album": "Still Still Stellar",
