@@ -79,9 +79,9 @@ function displaySongs(songList){
         const rating = song.rating || "NR";
         const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
         const file = song.file || "";
+        const genreClass = (song.genre || "").toLowerCase().replace(/[^a-z0-9]/g,"");
 
         card.innerHTML = `
-
 <div class="cover-container">
 <img src="${song.cover}">
 ${coverTag}
@@ -102,7 +102,7 @@ ${song.title}
 
 ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
 
-<span class="genre-tag">
+<span class="genre-tag ${genreClass}">
 ${song.genre || ""}
 </span>
 
@@ -190,6 +190,7 @@ function openSongInfo(song){
 
     const overlay = document.getElementById("song-info-overlay");
     const rating = song.rating || "NR";
+    const genreClass = (song.genre || "").toLowerCase().replace(/[^a-z0-9]/g,"");
 
     document.getElementById("info-cover").src = song.cover;
 
@@ -205,7 +206,7 @@ function openSongInfo(song){
     document.getElementById("info-year").innerText = song.year || "";
 
     document.getElementById("info-genre").innerHTML = `
-<span class="genre-tag">
+<span class="genre-tag ${genreClass}">
 ${song.genre || ""}
 </span>
 `;
