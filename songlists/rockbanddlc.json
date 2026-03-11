@@ -62,8 +62,9 @@
     "year": 1971,
     "genre": "Glam",
     "cover": "covers/trexelectricwarrior.png",
-    "file": "https://drive.google.com/uc?export=download&id=1NEsneqC2evVFPpcFe2eOMkrhZggbjjTk",
+    "file": "https://drive.google.com/uc?export=download&id=1G1BoiT-fU6C-Y_YQEkVnhFTT01100R54",
     "category": "rb1dlc",
+    "release": "11-20-2007",
     "rating": "SR",
     "master": false,
     "difficulty": {
@@ -82,6 +83,7 @@
     "cover": "covers/metallicaandjusticeforall.png",
     "file": "https://drive.google.com/uc?export=download&id=11GnFsNojIbjeG9OgOTblG0uE5Ou6pKjz",
     "category": "rb1dlc",
+    "release": "11-20-2007",
     "rating": "SR",
     "difficulty": {
       "guitar": 6,
@@ -132,6 +134,7 @@
     "cover": "covers/thepoliceoutlandosdamour.png",
     "file": "https://drive.google.com/uc?export=download&id=181B-7Ee2vHeobdanGJaNutCWr_SLYO6v",
     "category": "rb1dlc",
+    "release": "11-20-2007",
     "rating": "SR",
     "difficulty": {
       "guitar": 1,
@@ -147,7 +150,9 @@
     "year": 1976,
     "genre": "Punk",
     "cover": "covers/therunawaystherunaways.png",
+    "file": "https://drive.google.com/uc?export=download&id=1rDjHfVtmefcKpyGeXQrQIKkRNA_p_ZPf",
     "category": "rb1dlc",
+    "release": "11-20-2007",
     "rating": "SR",
     "master": false,    
     "difficulty": {
@@ -197,7 +202,9 @@
     "year": 1969,
     "genre": "Southern Rock",
     "cover": "covers/creedenceclearwaterrevivalwillyandthepoorboys.png",
+    "file": "https://drive.google.com/uc?export=download&id=1rQuunWeFQPGV92ksPwxXx4LuDafheAqg",
     "category": "rb1dlc",
+    "release": "11-20-2007",
     "rating": "FF",
     "master": false,    
     "difficulty": {
@@ -247,7 +254,9 @@
     "year": 2005,
     "genre": "Rock",
     "cover": "covers/wolfmotherwolfmother.png",
+    "file": "https://drive.google.com/uc?export=download&id=1NzFqAs96MQVD7vZ1Qq7sm2P9Tz8cZ8tv",
     "category": "rb1dlc",
+    "release": "11-20-2007",
     "rating": "FF",
     "difficulty": {
       "guitar": 5,
