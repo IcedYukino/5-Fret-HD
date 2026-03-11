@@ -261,6 +261,24 @@ justify-self:end;
 opacity:.95;
 }
 
+.genre-tag.rock { background:#c0392b; color:white; }
+.genre-tag.metal { background:#6c3483; color:white; }
+.genre-tag.pop { background:#e91e63; color:white; }
+.genre-tag.hardrock { background:#d35400; color:white; }
+.genre-tag.alternativerock { background:#16a085; color:white; }
+.genre-tag.indierock { background:#2ecc71; color:white; }
+.genre-tag.punk { background:#f1c40f; color:black; }
+.genre-tag.classicrock { background:#8e44ad; color:white; }
+.genre-tag.electronic { background:#3498db; color:white; }
+.genre-tag.hiphop { background:#2c3e50; color:white; }
+.genre-tag.country { background:#d4ac0d; color:black; }
+.genre-tag.jazz { background:#1abc9c; color:white; }
+.genre-tag.blues { background:#34495e; color:white; }
+.genre-tag.funk { background:#ff5722; color:white; }
+.genre-tag.disco { background:#ff00aa; color:white; }
+.genre-tag.soundtrack { background:#607d8b; color:white; }
+.genre-tag.other { background:#7f8c8d; color:white; }
+
 /* Song rating */
 
 .song-rating{
