@@ -82,6 +82,10 @@ const card = document.createElement("div");
 card.className = `song ${song.category || ""}`;
 
 const rating = song.rating || "NR";
+const harmonixSources = ["gh","gh2","rb1dlc","fnf"];
+const harmonixTag = harmonixSources.includes(song.category)
+? `<span class="charter harmonix">Harmonix</span>`
+: "";  
 const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
 const file = song.file || "";
 const genreClassName = genreClass(song.genre);
