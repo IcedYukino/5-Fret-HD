@@ -2,31 +2,65 @@ let songs = [];
 let currentTab = "all";
 let sortDirection = 1;
 
+// ==========================
+// INIT
+// ==========================
 window.addEventListener("DOMContentLoaded", async () => {
     await loadSongs("all");
     setupOverlayClose();
 });
 
+// ==========================
+// GLOBAL CLICK HANDLER (FIXES MORE INFO)
+// ==========================
+document.addEventListener("click", (e) => {
+
+    // MORE INFO BUTTON
+    const infoBtn = e.target.closest(".more-info-btn");
+    if (infoBtn) {
+        e.stopPropagation();
+
+        const card = infoBtn.closest(".song");
+        if (!card) return;
+
+        const index = card.dataset.index;
+        const song = songs[index];
+
+        if (song) openSongInfo(song);
+        return;
+    }
+
+    // CLOSE ALL DROPDOWNS IF CLICKING OUTSIDE
+    document.querySelectorAll(".difficulty-dropdown").forEach(d => {
+        d.classList.remove("open");
+    });
+
+});
+
+// ==========================
+// FORMAT DATE
+// ==========================
 function formatReleaseDate(date){
+    if(!date) return "";
 
-if(!date) return "";
+    const parts = date.split("-");
+    if(parts.length !== 3) return date;
 
-const parts = date.split("-");
-if(parts.length !== 3) return date;
+    const months = [
+        "January","February","March","April","May","June",
+        "July","August","September","October","November","December"
+    ];
 
-const months = [
-"January","February","March","April","May","June",
-"July","August","September","October","November","December"
-];
+    const month = months[parseInt(parts[0]) - 1];
+    const day = parseInt(parts[1]);
+    const year = parts[2];
 
-const month = months[parseInt(parts[0]) - 1];
-const day = parseInt(parts[1]);
-const year = parts[2];
-
-return month + " " + day + ", " + year;
-
+    return month + " " + day + ", " + year;
 }
 
+// ==========================
+// LOAD SONGS
+// ==========================
 async function loadSongs(tab){
 
     let files = [];
@@ -38,7 +72,6 @@ async function loadSongs(tab){
     else if(tab === "rb1dlc") files = ["rockbanddlc"];
     else if(tab === "fnf") files = ["fortnitefestival"];
     else if(tab === "all"){
-
         try{
             const index = await fetch("./songlists/index.json");
             files = await index.json();
@@ -46,17 +79,13 @@ async function loadSongs(tab){
             console.error("Failed to load index.json", err);
             return;
         }
-
     }
 
     let loadedSongs = [];
 
     for(const file of files){
-
         try{
-
             const res = await fetch(`./songlists/${file}.json`);
-
             if(!res.ok){
                 console.warn(`Missing file: ${file}.json`);
                 continue;
@@ -68,7 +97,6 @@ async function loadSongs(tab){
         }catch(err){
             console.warn(`Error loading ${file}.json`, err);
         }
-
     }
 
     songs = loadedSongs;
@@ -81,9 +109,11 @@ async function loadSongs(tab){
     if(counter){
         counter.innerText = songs.length + " songs";
     }
-
 }
 
+// ==========================
+// DISPLAY SONGS
+// ==========================
 function displaySongs(songList){
 
     const grid = document.getElementById("song-grid");
@@ -91,95 +121,98 @@ function displaySongs(songList){
 
     grid.innerHTML = "";
 
-    songList.forEach(song => {
+    songList.forEach((song, index) => {
 
         const card = document.createElement("div");
         card.className = `song ${song.category || ""}`;
+        card.dataset.index = index;
 
         const rating = song.rating || "NR";
         const coverTag = song.master === false ? `<div class="cover-tag">COVER</div>` : "";
         const file = song.file || "";
 
         card.innerHTML = `
+        <div class="cover-container">
+            <img src="${song.cover}">
+            ${coverTag}
+        </div>
 
-<div class="cover-container">
-    <img src="${song.cover}">
-    ${coverTag}
-</div>
+        <h3>
+        <a class="song-download"
+        href="${file}"
+        download
+        onclick="event.stopPropagation()">
+        ${song.title}
+        </a>
+        </h3>
 
-<h3>
-<a class="song-download"
-href="${file}"
-download
-onclick="event.stopPropagation()">
-${song.title}
-</a>
-</h3>
+        <p>${song.artist}</p>
 
-<p>${song.artist}</p>
+        <div class="genre-row">
 
-<div class="genre-row">
+        ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
 
-${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
+        <span class="genre-tag ${song.genre?.toLowerCase().replace(/[^a-z]/g,'')}">
+        ${song.genre || ""}
+        </span>
 
-<span class="genre-tag ${song.genre?.toLowerCase().replace(/[^a-z]/g,'')}">
-${song.genre || ""}
-</span>
+        <span class="song-rating ${rating}">
+        ${rating}
+        </span>
 
-<span class="song-rating ${rating}">
-${rating}
-</span>
+        </div>
 
-</div>
+        <div class="difficulty-dropdown">
 
-<div class="difficulty-dropdown">
+        <div class="instrument">
+        <img class="instrument-icon" src="./assets/guitar.png">
+        ${createDifficulty(song.difficulty?.guitar)}
+        </div>
 
-<div class="instrument">
-<img class="instrument-icon" src="./assets/guitar.png">
-${createDifficulty(song.difficulty?.guitar)}
-</div>
+        <div class="instrument">
+        <img class="instrument-icon" src="./assets/bass.png">
+        ${createDifficulty(song.difficulty?.bass)}
+        </div>
 
-<div class="instrument">
-<img class="instrument-icon" src="./assets/bass.png">
-${createDifficulty(song.difficulty?.bass)}
-</div>
+        <div class="instrument">
+        <img class="instrument-icon" src="./assets/drums.png">
+        ${createDifficulty(song.difficulty?.drums)}
+        </div>
 
-<div class="instrument">
-<img class="instrument-icon" src="./assets/drums.png">
-${createDifficulty(song.difficulty?.drums)}
-</div>
+        <div class="instrument">
+        <img class="instrument-icon" src="./assets/vocals.png">
+        ${createDifficulty(song.difficulty?.vocals)}
+        </div>
 
-<div class="instrument">
-<img class="instrument-icon" src="./assets/vocals.png">
-${createDifficulty(song.difficulty?.vocals)}
-</div>
+        <div class="more-info-row">
+        <button class="more-info-btn">More Info</button>
+        </div>
 
-<div class="more-info-row">
-<button class="more-info-btn">More Info</button>
-</div>
-
-</div>
-`;
+        </div>
+        `;
 
         grid.appendChild(card);
 
         const dropdown = card.querySelector(".difficulty-dropdown");
 
-        card.addEventListener("click", () => {
+        card.addEventListener("click", (e) => {
+
+            // Prevent dropdown toggle when clicking buttons/links
+            if (
+                e.target.closest(".more-info-btn") ||
+                e.target.closest(".song-download")
+            ) return;
+
             dropdown.classList.toggle("open");
-        });
-
-        const infoBtn = card.querySelector(".more-info-btn");
-
-        infoBtn.addEventListener("click", (e) => {
-            e.stopPropagation();
-            openSongInfo(song);
         });
 
     });
 
 }
 
+// ==========================
+// DIFFICULTY BARS
+// ==========================
 function createDifficulty(level){
 
     if(level === undefined || level === null || level === -1){
@@ -189,7 +222,6 @@ function createDifficulty(level){
     let bars = "";
 
     for(let i = 1; i <= 5; i++){
-
         if(level === 6){
             bars += `<div class="diff red"></div>`;
         }
@@ -199,13 +231,14 @@ function createDifficulty(level){
         else{
             bars += `<div class="diff"></div>`;
         }
-
     }
 
     return `<div class="diff-row">${bars}</div>`;
-
 }
 
+// ==========================
+// OPEN SONG INFO
+// ==========================
 function openSongInfo(song){
 
     const overlay = document.getElementById("song-info-overlay");
@@ -244,14 +277,13 @@ function openSongInfo(song){
 
     const sourceName = sourceNames[song.category] || "";
 
-document.getElementById("info-source").innerHTML =
-`<span class="source-row">
-${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
-<span>${sourceName}</span>
-</span>`;
+    document.getElementById("info-source").innerHTML =
+    `<span class="source-row">
+    ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">` : ""}
+    <span>${sourceName}</span>
+    </span>`;
 
     let ratingText = rating;
-
     if(rating === "FF") ratingText = "Family Friendly";
     if(rating === "SR") ratingText = "Supervision Recommended";
 
@@ -280,13 +312,18 @@ ${song.category ? `<img class="source-icon" src="./assets/${song.category}.png">
     document.getElementById("info-prokeys").innerHTML = createDifficulty(song.difficulty?.prokeys);
 
     overlay.classList.add("open");
-
 }
 
+// ==========================
+// CLOSE SONG INFO
+// ==========================
 function closeSongInfo(){
     document.getElementById("song-info-overlay").classList.remove("open");
 }
 
+// ==========================
+// OVERLAY CLOSE EVENTS
+// ==========================
 function setupOverlayClose(){
 
     const overlay = document.getElementById("song-info-overlay");
@@ -305,6 +342,9 @@ function setupOverlayClose(){
 
 }
 
+// ==========================
+// SEARCH
+// ==========================
 function searchSongs(){
 
     const input = document.getElementById("search").value.toLowerCase();
@@ -323,6 +363,9 @@ function searchSongs(){
 
 }
 
+// ==========================
+// SORT
+// ==========================
 function sortSongs(type){
 
     songs.sort((a,b)=>{
@@ -343,6 +386,9 @@ function sortSongs(type){
 
 }
 
+// ==========================
+// SWITCH TAB
+// ==========================
 async function switchTab(tab, button){
 
     currentTab = tab;
@@ -357,6 +403,9 @@ async function switchTab(tab, button){
 
 }
 
+// ==========================
+// RANDOM SONG
+// ==========================
 window.addEventListener("DOMContentLoaded", () => {
 
     const randomBtn = document.getElementById("randomSong");
